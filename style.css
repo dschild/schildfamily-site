@@ -305,11 +305,105 @@ main {
 
 .card p:last-child { margin-bottom: 0; }
 
-.origins-map {
+.crest-figure {
+  margin: 1.75rem 0 0.5rem;
+  text-align: center;
+}
+
+.crest-frame {
+  display: block;
+  margin: 0 auto;
   width: 100%;
+  max-width: 340px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 14px;
+  border: 3px solid var(--gold);
+  box-shadow: 0 16px 44px rgba(0,0,0,0.55);
+}
+
+.crest-figure figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+}
+
+.accordion {
+  margin-top: 1.5rem;
+}
+
+.accordion details {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius);
   margin-bottom: 0.75rem;
+  overflow: hidden;
+}
+
+.accordion details[open] {
+  border-color: var(--panel-border-hover);
+}
+
+.accordion summary {
+  cursor: pointer;
+  padding: 1.1rem 1.4rem;
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--ink);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: background 0.15s ease;
+}
+
+.accordion summary:hover {
+  background: rgba(255,255,255,0.04);
+}
+
+.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion summary::after {
+  content: "+";
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--gold-bright);
+}
+
+.accordion details[open] summary::after {
+  content: "\2212";
+}
+
+.accordion-body {
+  padding: 0 1.4rem 1.4rem;
+}
+
+.accordion-body p:last-child,
+.accordion-body ul:last-child {
+  margin-bottom: 0;
+}
+
+.accordion-body ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--ink-soft);
+}
+
+.accordion-body li {
+  margin-bottom: 0.55rem;
+}
+
+.origins-map {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 0 auto 0.75rem;
+  border-radius: 10px;
   background: rgba(0,0,0,0.15);
 }
 
