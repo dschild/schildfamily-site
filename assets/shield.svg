@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-labelledby="shieldTitle">
+  <title id="shieldTitle">Schild family shield motif: azure field, red fess, three silver escutcheons</title>
+  <defs>
+    <clipPath id="shieldOutline">
+      <path d="M12,10 H188 V110 C188,168 150,208 100,232 C50,208 12,168 12,110 Z"/>
+    </clipPath>
+    <linearGradient id="azure" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a4d8f"/>
+      <stop offset="100%" stop-color="#16305e"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#shieldOutline)">
+    <rect x="0" y="0" width="200" height="240" fill="url(#azure)"/>
+    <rect x="0" y="92" width="200" height="46" fill="#a41e22"/>
+    <rect x="0" y="92" width="200" height="4" fill="#7c1418"/>
+    <rect x="0" y="134" width="200" height="4" fill="#7c1418"/>
+
+    <g fill="#e9e2d0" stroke="#c9bd9a" stroke-width="1.5">
+      <path d="M56,98 h20 v14 c0,7 -4.5,11.5 -10,15.5 c-5.5,-4 -10,-8.5 -10,-15.5 z"/>
+      <path d="M90,98 h20 v14 c0,7 -4.5,11.5 -10,15.5 c-5.5,-4 -10,-8.5 -10,-15.5 z"/>
+      <path d="M124,98 h20 v14 c0,7 -4.5,11.5 -10,15.5 c-5.5,-4 -10,-8.5 -10,-15.5 z"/>
+    </g>
+  </g>
+
+  <path d="M12,10 H188 V110 C188,168 150,208 100,232 C50,208 12,168 12,110 Z"
+        fill="none" stroke="#0d1b33" stroke-width="4"/>
+</svg>
