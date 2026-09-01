@@ -8,7 +8,7 @@
 <link rel="icon" href="assets/shield.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,37 +16,42 @@
 
 <header class="site-header">
   <div class="header-inner">
-    <img class="crest" src="assets/shield.svg" alt="Schild family shield motif">
-    <div class="title-block">
-      <h1>The Schild Family Archive</h1>
-      <p class="tagline">Schild — German for &ldquo;shield&rdquo;</p>
-    </div>
+    <a class="brand" href="index.html">
+      <img class="crest" src="assets/shield.svg" alt="Schild family shield motif">
+      <div class="title-block">
+        <p class="brand-word">Schild Family Archive</p>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="family-tree.html">Family Tree</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="stories.html">Stories &amp; Photos</a>
+    </nav>
   </div>
-  <nav class="site-nav" aria-label="Primary">
-    <a href="index.html" aria-current="page">Home</a>
-    <a href="family-tree.html">Family Tree</a>
-    <a href="timeline.html">Timeline</a>
-    <a href="stories.html">Stories &amp; Photos</a>
-  </nav>
 </header>
 
-<main id="main">
-  <p class="lede">Welcome to the Schild family&rsquo;s home on the web — a place to gather the names, dates, stories, and photographs that make up our shared history, and to keep them for the generations who come after us.</p>
+<section class="hero">
+  <img class="hero-crest" src="assets/shield.svg" alt="">
+  <span class="eyebrow">Est. this archive &middot; ongoing</span>
+  <h1>The Schild Family Archive</h1>
+  <p class="sub">Schild — German for &ldquo;shield.&rdquo; A gathering place for the names, dates, stories, and photographs that make up our shared history, kept for the generations who come after us.</p>
+</section>
 
-  <section>
+<main id="main">
+  <section class="section reveal">
     <h2>About This Project</h2>
-    <p>This site is a work in progress, built to give our family a single, lasting place to collect what we know — and what we&rsquo;re still discovering. Over time it will grow to include a full family tree, a timeline of the events and migrations that shaped us, and a library of stories, photographs, and documents contributed by relatives near and far.</p>
-    <p>Right now the sections are mostly placeholders, sketched out so that real names, dates, and stories can be filled in as we gather them. If you&rsquo;re a family member with photos, documents, or memories to share, we&rsquo;d love to include them here.</p>
+    <p class="lede">This site is a work in progress, built to give our family a single, lasting place to collect what we know — and what we&rsquo;re still discovering.</p>
+    <p>Over time it will grow to include a full family tree, a timeline of the events and migrations that shaped us, and a library of stories, photographs, and documents contributed by relatives near and far. Right now the sections are mostly placeholders, sketched out so that real names, dates, and stories can be filled in as we gather them. If you&rsquo;re a family member with photos, documents, or memories to share, we&rsquo;d love to include them here.</p>
+
+    <div class="notice heraldry-note">
+      <h3>A Note on the Shield</h3>
+      <p>The shield design used throughout this site &mdash; an azure (blue) field with a red horizontal band and three small silver escutcheons &mdash; is inspired by a heraldic blazon historically associated with the Schild / Schildt name. It is used here decoratively, as a nod to the name&rsquo;s meaning and history. <strong>It has not been verified as a grant of arms belonging to this specific Schild family line</strong>, and should be understood as a thematic motif rather than a documented family coat of arms.</p>
+    </div>
   </section>
 
-  <div class="notice heraldry-note">
-    <h3>A Note on the Shield</h3>
-    <p>The shield design used throughout this site &mdash; an azure (blue) field with a red horizontal band and three small silver escutcheons &mdash; is inspired by a heraldic blazon historically associated with the Schild / Schildt name. It is used here decoratively, as a nod to the name&rsquo;s meaning and history. <strong>It has not been verified as a grant of arms belonging to this specific Schild family line</strong>, and should be understood as a thematic motif rather than a documented family coat of arms.</p>
-  </div>
-
-  <hr class="divider">
-
-  <section class="card-grid">
+  <section class="section reveal card-grid">
     <div class="card">
       <span class="placeholder-tag">Explore</span>
       <h3>Family Tree</h3>
@@ -71,5 +76,6 @@
 <footer class="site-footer">
   <p>The Schild Family Archive &middot; a free, ongoing family history project.</p>
 </footer>
+<script src="app.js" defer></script>
 </body>
 </html>
