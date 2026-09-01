@@ -1,4 +1,4 @@
-// Schild Family Archive — small progressive-enhancement script
+// Schild Family Archive: small progressive-enhancement script
 (function () {
   // Only arm the scroll-reveal CSS once JS is confirmed running,
   // so content is never hidden for no-JS visitors.
@@ -73,7 +73,7 @@
         .then(function (res) { return res.json(); })
         .then(function (json) {
           if (json.success) {
-            status.textContent = "Thanks — your message has been sent.";
+            status.textContent = "Thanks, your message has been sent.";
             status.className = "form-status success";
             form.reset();
             if (window.turnstile) { window.turnstile.reset(); }
