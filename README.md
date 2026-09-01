@@ -1,17 +1,22 @@
 # The Schild Family Archive
 
-A free, static family history website for the Schild family — home, family tree, timeline, and stories & photos pages.
+A free, static family history website for the Schild family.
 
 Plain HTML/CSS, no build step, no frameworks. Hosted for free on GitHub Pages.
+
+Currently a single Home page: an about section, the shield motif disclaimer, and a
+general history of the Schild surname's meaning and distribution. The family tree,
+timeline, and stories & photos pages were removed until there's real family data to put
+in them — they'll come back (as `family-tree.html`, `timeline.html`, `stories.html`) once
+that content exists. See the project notes for the pattern used previously.
 
 ## Structure
 
 - `index.html` — Home
-- `family-tree.html` — placeholder family tree
-- `timeline.html` — placeholder timeline of events/migrations
-- `stories.html` — placeholder stories, photos, and documents
 - `style.css` — shared styles
+- `app.js` — small progressive-enhancement script (mobile nav, scroll-reveal)
 - `assets/shield.svg` — the Schild shield motif used across the site
+- `assets/origins-map.svg` — custom infographic for the surname distribution section
 
 ## About the shield motif
 
