@@ -46,7 +46,7 @@
     targets.forEach(function (t) { t.classList.add("in-view"); });
   }
 
-  // Contact form (Web3Forms + Cloudflare Turnstile)
+  // Contact form (Web3Forms, spam-filtered on the Web3Forms side)
   var form = document.getElementById("contact-form");
   var status = document.getElementById("contact-status");
   if (form && status) {
@@ -76,7 +76,6 @@
             status.textContent = "Thanks, your message has been sent.";
             status.className = "form-status success";
             form.reset();
-            if (window.turnstile) { window.turnstile.reset(); }
           } else {
             status.textContent =
               json.message || "Something went wrong. Please try again.";

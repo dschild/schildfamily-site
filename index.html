@@ -10,7 +10,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -179,19 +178,17 @@
 
     <form id="contact-form" class="contact-form">
       <!--
-        Backend: Web3Forms (https://web3forms.com), a free form-relay service built
-        for static sites like this one. No account/password needed, just an email
-        address to receive an Access Key. Replace YOUR_WEB3FORMS_ACCESS_KEY below with
-        that key once you have it.
+        Backend: Web3Forms (https://web3forms.com). Access key set up for
+        david@schildfamily.com on 2026-09-01 (form: "Schild Family Archive -
+        Contact Form", site: schildfamily.com). Manage at app.web3forms.com.
 
-        Spam protection: Cloudflare Turnstile (free, privacy-friendly CAPTCHA widget).
-        Sign up at https://dash.cloudflare.com/?to=/:account/turnstile, create a widget
-        for schildfamily.com, and replace YOUR_TURNSTILE_SITE_KEY below with its Site Key.
-        Turnstile also has a matching Secret Key. Enter that into your Web3Forms
-        dashboard (Settings, Spam Protection, Turnstile) so submissions are verified
-        server-side, not just in the browser.
+        Spam protection: Web3Forms' built-in Advanced Spam Filter, set to
+        "Strict" in the form's Settings > Spam & Security tab (free on every
+        plan), plus the honeypot field below. Cloudflare Turnstile and Google
+        reCAPTCHA are also selectable there, but on Web3Forms those require a
+        paid Pro plan, so this site relies on the free filter instead.
       -->
-      <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+      <input type="hidden" name="access_key" value="a1769861-9347-4b6e-a6ae-a18b75b2dc00">
       <div class="visually-hidden" aria-hidden="true">
         <label for="cf-botcheck">Leave this field blank</label>
         <input type="checkbox" id="cf-botcheck" name="botcheck" tabindex="-1" autocomplete="off">
@@ -205,11 +202,6 @@
 
       <label for="cf-message">Message</label>
       <textarea id="cf-message" name="message" rows="5" required></textarea>
-
-      <label class="turnstile-label" id="turnstile-label">Security check</label>
-      <div class="turnstile-frame">
-        <div class="cf-turnstile" data-sitekey="YOUR_TURNSTILE_SITE_KEY" data-theme="light" aria-labelledby="turnstile-label"></div>
-      </div>
 
       <button type="submit" class="btn-submit">Send</button>
       <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
