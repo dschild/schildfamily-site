@@ -305,6 +305,23 @@ main {
 
 .card p:last-child { margin-bottom: 0; }
 
+.origins-map {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  background: rgba(0,0,0,0.15);
+}
+
+.source-note {
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  margin-top: 0.5rem;
+}
+
+.source-note a { color: var(--ink-soft); }
+.source-note a:hover { color: var(--gold-bright); }
+
 .card .placeholder-tag {
   display: inline-block;
   font-family: "Inter", sans-serif;

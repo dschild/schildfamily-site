@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-labelledby="originsMapTitle originsMapDesc">
+  <title id="originsMapTitle">Where the Schild surname is concentrated today</title>
+  <desc id="originsMapDesc">A stylized, not-to-scale diagram of German-speaking Central Europe, showing the countries with the highest concentration of the Schild surname today, with an arrow indicating the historical pattern of emigration to North America.</desc>
+  <defs>
+    <linearGradient id="regionFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d63b8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1c3970" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="coreFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8a6d1f" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="460" fill="none"/>
+
+  <!-- subtle lat/long grid for map feel -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="90" x2="640" y2="90"/>
+    <line x1="0" y1="180" x2="640" y2="180"/>
+    <line x1="0" y1="270" x2="640" y2="270"/>
+    <line x1="0" y1="360" x2="640" y2="360"/>
+    <line x1="120" y1="0" x2="120" y2="460"/>
+    <line x1="260" y1="0" x2="260" y2="460"/>
+    <line x1="400" y1="0" x2="400" y2="460"/>
+    <line x1="520" y1="0" x2="520" y2="460"/>
+  </g>
+
+  <!-- North America (schematic) -->
+  <path d="M40,120 C70,90 130,85 165,110 C185,125 175,150 150,155 C160,175 140,195 110,190 C90,210 55,205 45,180 C25,165 25,135 40,120 Z"
+        fill="url(#regionFill)" stroke="#5b82d6" stroke-opacity="0.6" stroke-width="1.5"/>
+  <text x="100" y="145" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="600" fill="#eef1f6">North America</text>
+  <text x="100" y="163" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#a7b0c0">~2,100 in the U.S. today</text>
+
+  <!-- emigration arrow -->
+  <path d="M195,200 C280,235 340,255 380,270" fill="none" stroke="#f0cf6a" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <path d="M380,270 l-14,-6 l4,15 z" fill="#f0cf6a"/>
+  <text x="270" y="222" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-style="italic" fill="#f0cf6a">19th&#8211;20th c. emigration</text>
+
+  <!-- Netherlands -->
+  <path d="M415,215 C430,205 450,208 455,222 C460,235 448,245 432,242 C418,240 405,228 415,215 Z"
+        fill="url(#regionFill)" stroke="#5b82d6" stroke-opacity="0.6" stroke-width="1.5"/>
+  <circle cx="433" cy="227" r="4" fill="#f0cf6a"/>
+  <text x="433" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#eef1f6">Netherlands</text>
+  <text x="433" y="260" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#a7b0c0">665</text>
+
+  <!-- Germany (core) -->
+  <path d="M440,235 C475,215 530,220 555,250 C575,275 565,310 535,325 C545,345 520,365 495,355 C470,370 440,355 435,330 C415,320 415,290 430,270 C420,255 425,242 440,235 Z"
+        fill="url(#coreFill)" stroke="#f0cf6a" stroke-width="2"/>
+  <circle cx="490" cy="285" r="6" fill="#f0cf6a"/>
+  <text x="490" y="255" text-anchor="middle" font-family="Fraunces, serif" font-size="17" font-weight="600" fill="#f0cf6a">Germany</text>
+  <text x="490" y="305" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#eef1f6">7,410 &#8212; core of the name</text>
+
+  <!-- Switzerland -->
+  <path d="M460,345 C480,335 510,338 518,355 C524,368 505,378 485,376 C468,374 452,360 460,345 Z"
+        fill="url(#regionFill)" stroke="#5b82d6" stroke-opacity="0.6" stroke-width="1.5"/>
+  <circle cx="488" cy="358" r="4" fill="#f0cf6a"/>
+  <text x="488" y="335" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#eef1f6">Switzerland</text>
+  <text x="488" y="398" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#a7b0c0">1,589 &#8212; Neuch&#226;tel records from c. 1600</text>
+
+  <!-- Austria -->
+  <path d="M525,320 C555,308 590,315 598,335 C605,352 580,365 555,360 C535,357 512,335 525,320 Z"
+        fill="url(#regionFill)" stroke="#5b82d6" stroke-opacity="0.6" stroke-width="1.5"/>
+  <circle cx="562" cy="338" r="4" fill="#f0cf6a"/>
+  <text x="562" y="300" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#eef1f6">Austria</text>
+  <text x="562" y="410" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#a7b0c0">724</text>
+
+  <text x="320" y="440" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#6d7688">Schematic, not to scale &#8212; illustrates relative surname concentration only.</text>
+</svg>
