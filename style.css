@@ -295,7 +295,7 @@ nav.site-nav {
 }
 
 .hero-crest img {
-  width: 148px;
+  width: 200px;
   height: auto;
   margin: 0 auto;
   filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.45));
@@ -330,6 +330,42 @@ nav.site-nav {
   line-height: 1.6;
   max-width: 46ch;
   margin: 0 auto;
+}
+
+/* Side-by-side on wider screens: the crest gets real size instead of
+   competing with the headline for vertical space. */
+@media (min-width: 860px) {
+  .hero { text-align: left; padding: 4.5rem 2.5rem; }
+
+  .hero-inner {
+    max-width: 1080px;
+    flex-direction: row;
+    align-items: center;
+    gap: 4.5rem;
+  }
+
+  .hero-crest {
+    margin: 0;
+    flex: 0 0 auto;
+  }
+
+  .hero-crest img {
+    width: 300px;
+  }
+
+  .hero-crest figcaption {
+    max-width: 300px;
+  }
+
+  .hero-text { flex: 1 1 auto; }
+
+  .hero .eyebrow { margin-left: 0.1rem; }
+
+  .hero-sub { margin: 0; max-width: 42ch; }
+}
+
+@media (min-width: 1120px) {
+  .hero-crest img { width: 340px; }
 }
 
 /* ============================================================
@@ -732,7 +768,7 @@ footer.site-footer p { margin: 0; color: var(--cream-faint); }
   body { font-size: 1rem; }
   .section { padding: 3rem 1.25rem; }
   .hero { padding: 2.75rem 1.25rem 3rem; }
-  .hero-crest img { width: 118px; }
+  .hero-crest img { width: 168px; }
   .drop-cap:first-letter { font-size: 2.6em; }
 }
 
