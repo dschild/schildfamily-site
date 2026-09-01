@@ -8,7 +8,7 @@
 <link rel="icon" href="assets/shield.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,164 +17,204 @@
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="index.html">
-      <img class="crest" src="assets/shield.svg" alt="Schild family shield motif">
-      <div class="title-block">
-        <p class="brand-word">Schild Family Archive</p>
-      </div>
+      <img class="brand-mark" src="assets/shield.svg" alt="" width="28" height="32">
+      <span class="brand-word">Schild Family Archive</span>
     </a>
-    <nav class="site-nav" aria-label="Primary">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="#contact">Contact</a>
+
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="#main" aria-current="page">Home</a>
+      <a href="#the-name">The Schild Name</a>
+      <a href="#contribute">Contribute</a>
     </nav>
   </div>
 </header>
 
 <section class="hero">
-  <img class="hero-crest" src="assets/shield.svg" alt="">
-  <span class="eyebrow">Est. this archive &middot; ongoing</span>
-  <h1>The Schild Family Archive</h1>
-  <p class="sub">Schild is German for &ldquo;shield.&rdquo; A gathering place for the names, dates, stories, and photographs that make up our shared history, kept for the generations who come after us.</p>
+  <div class="hero-inner">
+    <figure class="hero-crest">
+      <img src="assets/crest-house-of-schild.jpg" alt="Decorative &ldquo;House of Schild&rdquo; crest artwork: a wolf and a lion flanking a black-and-silver shield, a raven above a knight&rsquo;s helm, and a banner reading Faith, Family, Freedom" width="420" height="630">
+      <figcaption>Original artwork, made for this archive &middot; not a documented grant of arms</figcaption>
+    </figure>
+
+    <p class="eyebrow">Est. this archive &middot; ongoing</p>
+    <h1>The Schild Family<br>Archive</h1>
+    <p class="hero-sub">Schild is German for &ldquo;shield.&rdquo; A gathering place for the names, dates, stories, and photographs that make up our shared history &mdash; kept for the generations who come after us.</p>
+  </div>
 </section>
 
 <main id="main">
-  <section class="section reveal">
-    <h2>Welcome</h2>
-    <p class="lede">This is a home for the Schild family&rsquo;s history: a single, lasting place to keep what we know.</p>
-    <p>If you&rsquo;re a family member with names, dates, photos, documents, or memories to share, we&rsquo;d love to include them here. Reach out using the contact form below.</p>
 
-    <div class="notice heraldry-note">
-      <h3>A Note on the Shield &amp; Crest</h3>
-      <p>The shield design used throughout this site (an azure, or blue, field with a red horizontal band and three small silver escutcheons) is inspired by a heraldic blazon historically associated with the Schild / Schildt name. The fuller crest artwork below (with the wolf and lion, raven, and &ldquo;Faith &middot; Family &middot; Freedom&rdquo; motto) is original artwork made for this site. Both are used decoratively, as a nod to the name&rsquo;s meaning. <strong>Neither has been verified as a grant of arms belonging to this specific Schild family line</strong>, and both should be understood as thematic motifs rather than a documented family coat of arms.</p>
+  <section class="section entrance reveal">
+    <div class="entrance-grid">
+      <div class="entrance-copy">
+        <h2 class="section-eyebrow">Welcome</h2>
+        <p class="lede drop-cap">This is a home for the Schild family&rsquo;s history: a single, lasting place to keep what we know. It is small today and will grow slowly, the way real archives do &mdash; one name, one date, one photograph at a time.</p>
+        <p>If you&rsquo;re a family member with names, dates, photos, documents, or memories to share, we&rsquo;d love to include them here.</p>
+      </div>
+      <nav class="entrance-paths" aria-label="Explore the archive">
+        <a class="path-link" href="#the-name">
+          <span class="path-label">Read</span>
+          <span class="path-title">The Schild Name</span>
+          <span class="path-desc">Where the name comes from, its earliest records, and who else has carried it</span>
+        </a>
+        <a class="path-link" href="#contribute">
+          <span class="path-label">Share</span>
+          <span class="path-title">Contribute to the Archive</span>
+          <span class="path-desc">Send a name, a date, a photograph, or a correction</span>
+        </a>
+      </nav>
     </div>
-
-    <figure class="crest-figure">
-      <img class="crest-frame" src="assets/crest-house-of-schild.jpg" alt="Decorative 'House of Schild' crest artwork: a wolf and a lion flanking a black-and-silver shield, a raven above a knight's helm, and a banner reading Faith, Family, Freedom">
-      <figcaption>Decorative crest artwork, not a documented coat of arms.</figcaption>
-    </figure>
   </section>
 
-  <section class="section reveal">
-    <h2>The Schild Name <span class="accent">History &amp; Facts</span></h2>
+  <section class="section name-zone reveal" id="the-name">
+    <p class="section-eyebrow">Background &amp; Research</p>
+    <h2>The Schild Name</h2>
     <p class="lede">Before we can trace this specific family&rsquo;s line, it helps to know where the name itself comes from, its earliest records, and who else has carried it.</p>
 
     <div class="notice">
-      <h3>General Surname History, Not Confirmed Family Lineage</h3>
-      <p>Everything in this section describes the Schild <em>surname</em> broadly: its meaning, early records, and famous bearers, drawn from public genealogical, historical, and biographical sources. None of the people or records below are confirmed to be part of this specific family&rsquo;s line. Treat it as background and research starting points, the same way the shield and crest above are decorative rather than documented.</p>
+      <p><strong>This section is general surname history, not confirmed family lineage.</strong> Everything below describes the Schild <em>surname</em> broadly &mdash; its meaning, early records, and famous bearers &mdash; drawn from public genealogical, historical, and biographical sources. None of the people or records here are confirmed to be part of this specific family&rsquo;s line; treat it as background and research starting points, the same way the crest above is a decorative motif rather than a documented coat of arms.</p>
     </div>
 
-    <div class="accordion">
-      <details open>
-        <summary>What &ldquo;Schild&rdquo; Means</summary>
-        <div class="accordion-body">
-          <p><strong>Schild</strong> is German (and Swiss German / Dutch) for &ldquo;shield,&rdquo; from Middle High German <em>schilt</em>. As a surname it most likely arose one of two ways: as an occupational name for someone who made or painted shields, or, more commonly, from the old European custom of identifying a house by a carved or painted sign rather than a street number. A family living at &ldquo;the house with the shield&rdquo; sign would come to be known by it over generations. Among Ashkenazi Jewish families in German-speaking lands, who were required to adopt fixed surnames in the late 1700s&ndash;1800s, Schild was one of many sign- and object-based names adopted at that time. Related surnames include <em>Schilder</em> (shield maker/painter), <em>Schildt</em>, <em>Schildknecht</em>, and the English <em>Shield</em>.</p>
-        </div>
-      </details>
+    <article class="name-article">
+      <h3>What &ldquo;Schild&rdquo; Means</h3>
+      <p><strong>Schild</strong> is German (and Swiss German / Dutch) for &ldquo;shield,&rdquo; from Middle High German <em>schilt</em>. As a surname it most likely arose one of two ways: as an occupational name for someone who made or painted shields, or, more commonly, from the old European custom of identifying a house by a carved or painted sign rather than a street number. A family living at &ldquo;the house with the shield&rdquo; sign would come to be known by it over generations. Among Ashkenazi Jewish families in German-speaking lands, who were required to adopt fixed surnames in the late 1700s&ndash;1800s, Schild was one of many sign- and object-based names adopted at that time. Related surnames include <em>Schilder</em> (shield maker/painter), <em>Schildt</em>, <em>Schildknecht</em>, and the English <em>Shield</em>.</p>
+    </article>
 
-      <details>
-        <summary>Where the Name Is Found Today</summary>
-        <div class="accordion-body">
-          <img class="origins-map" src="assets/origins-map.svg" alt="Stylized, not-to-scale map showing Schild surname concentration highest in Germany, followed by Switzerland, Austria, and the Netherlands, with an arrow noting emigrant communities in North America">
-          <p>Roughly 14,000&ndash;22,000 people carry the Schild surname today (estimates vary by source), and about 8 in 10 still live in Europe. Germany holds the largest concentration by far, especially North Rhine-Westphalia, Hesse, and Lower Saxony, followed by Switzerland (with records around Neuch&acirc;tel dating back to roughly 1600), Austria, and the Netherlands. A few thousand more live in the United States today, consistent with the broader wave of German-speaking emigration in the 1800s and early 1900s.</p>
-        </div>
-      </details>
+    <div class="timeline-wrap">
+      <h3>Surname Through Time</h3>
+      <p class="timeline-intro">A short chronology built only from verified, publicly documented references to the surname &mdash; not this family&rsquo;s own record.</p>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-year">1294</span>
+          <span class="timeline-body"><strong>Johannes dem Schilt</strong> is recorded as a <em>Burger</em> (citizen) of Hannover, Germany &mdash; the earliest documented instance of the surname in general genealogical references, nearly 730 years ago.</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">1482</span>
+          <span class="timeline-body">A later record shows a <strong>Casper Schilde</strong> in Wiederitzsch, Germany. Spelling was not standardized in this era, so early records appear under many forms &mdash; <em>Schilt, Schilde, Schildt, Schild</em> &mdash; often for the same family, as clerks wrote names phonetically.</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">c. 1600</span>
+          <span class="timeline-body">Swiss records around <strong>Neuch&acirc;tel</strong> begin, part of the name&rsquo;s long presence in Switzerland alongside Germany.</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">Late 1700s&ndash;1800s</span>
+          <span class="timeline-body">Ashkenazi Jewish families in German-speaking lands are required to adopt fixed surnames; <strong>Schild</strong> is one of many sign- and object-based names adopted at this time.</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">1800s&ndash;early 1900s</span>
+          <span class="timeline-body">A wave of German-speaking emigration carries the name to the United States and elsewhere, alongside continued growth in Germany, Switzerland, Austria, and the Netherlands.</span>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">Today</span>
+          <span class="timeline-body">Roughly <strong>14,000&ndash;22,000</strong> people carry the Schild surname worldwide (estimates vary by source); about 8 in 10 still live in Europe, concentrated in Germany &mdash; especially North Rhine-Westphalia, Hesse, and Lower Saxony.</span>
+        </li>
+      </ol>
+      <p class="timeline-note">A confirmed line back to any of these early records would take real archival research &mdash; parish registers, city citizenship rolls, emigration records &mdash; rather than public surname databases.</p>
+    </div>
 
-      <details>
-        <summary>Earliest Known Records</summary>
-        <div class="accordion-body">
-          <p>The earliest documented instance of the surname found in general genealogical references is <strong>Johannes dem Schilt</strong>, recorded as a <em>Burger</em> (citizen) of Hannover, Germany, in <strong>1294</strong>, nearly 730 years ago. A later record shows a <strong>Casper Schilde</strong> in Wiederitzsch, Germany, in <strong>1482</strong>. Spelling was not standardized in this era, so early records appear under many forms, including <em>Schilt, Schilde, Schildt,</em> and <em>Schild</em>, often for the same family as clerks wrote names phonetically. These are general historical records of the surname anywhere it appears, not records belonging to this specific family; a confirmed line back to any of them would take real archival research (parish registers, city citizenship rolls, emigration records) rather than public surname databases.</p>
-        </div>
-      </details>
+    <figure class="map-figure">
+      <h3>Where the Name Is Found Today</h3>
+      <div class="map-frame">
+        <img class="origins-map" src="assets/origins-map.svg" alt="Stylized, not-to-scale map showing Schild surname concentration highest in Germany, followed by Switzerland, Austria, and the Netherlands, with an arrow noting emigrant communities in North America" width="640" height="355">
+      </div>
+      <figcaption class="map-figcaption">Schematic, not to scale &mdash; illustrates relative surname concentration only.</figcaption>
+    </figure>
 
-      <details>
-        <summary>Notable Schilds Through History</summary>
-        <div class="accordion-body">
-          <p>People named Schild have shown up in a range of fields. None are known to be relatives of this family; they&rsquo;re listed here simply because they share the name. Photos are only shown where a freely-licensed one exists (public domain or Creative Commons on Wikimedia Commons); credits are noted below each photo.</p>
-          <div class="person-list">
-            <div class="person-card">
-              <div class="person-thumb placeholder" aria-hidden="true"><span>AS</span></div>
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Alfred_Schild" target="_blank" rel="noopener">Alfred Schild</a> <span class="person-dates">(1921&ndash;1977)</span></h4>
-                <p>Austrian-American physicist at the University of Texas; co-discovered the Kerr&ndash;Schild spacetime metric and introduced &ldquo;Schild&rsquo;s ladder,&rdquo; a construction in differential geometry still used today (and the namesake of a Greg Egan science-fiction novel).</p>
-              </div>
-            </div>
+    <div class="notable-wrap">
+      <h3>Notable Schilds Through History</h3>
+      <p>People named Schild have shown up in a range of fields. None are known to be relatives of this family; they&rsquo;re listed here simply because they share the name. Photos are only shown where a freely-licensed one exists (public domain or Creative Commons on Wikimedia Commons); credits are noted below each photo.</p>
 
-            <div class="person-card">
-              <div class="person-thumb placeholder" aria-hidden="true"><span>ES</span></div>
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Erwin_Schild" target="_blank" rel="noopener">Erwin Schild</a> <span class="person-dates">(1920&ndash;2024)</span></h4>
-                <p>German-born Canadian Conservative rabbi and author, among the last Kindertransport survivors to lead a congregation.</p>
-              </div>
-            </div>
-
-            <div class="person-card">
-              <div class="person-thumb placeholder" aria-hidden="true"><span>RS</span></div>
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Rolf_Schild" target="_blank" rel="noopener">Rolf Schild</a> <span class="person-dates">(1924&ndash;2003)</span> OBE</h4>
-                <p>German-born British businessman, a Jewish refugee from Nazi Germany who founded Huntleigh Technology, a medical equipment company based in Luton, England.</p>
-              </div>
-            </div>
-
-            <div class="person-card">
-              <div class="person-thumb placeholder" aria-hidden="true"><span>RS</span></div>
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Romuald_Schild" target="_blank" rel="noopener">Romuald Schild</a> <span class="person-dates">(1936&ndash;2021)</span></h4>
-                <p>Polish archaeologist and professor at the Institute of Archaeology and Ethnology, Polish Academy of Sciences, known for prehistoric Sahara and Nubian research.</p>
-              </div>
-            </div>
-
-            <div class="person-card">
-              <div class="person-thumb placeholder" aria-hidden="true"><span>TS</span></div>
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Thekla_Schild" target="_blank" rel="noopener">Thekla Schild</a> <span class="person-dates">(1890&ndash;1991)</span></h4>
-                <p>German architect; in 1913 became the second woman in Germany to earn a degree in architecture. (Wikipedia has a photo of her, but it&rsquo;s used there under fair-use terms that don&rsquo;t allow reuse elsewhere, so it isn&rsquo;t shown here.)</p>
-              </div>
-            </div>
-
-            <div class="person-card">
-              <img class="person-thumb" src="assets/notable-marlies-schild.jpg" alt="Marlies Schild (Raich)" width="88" height="88">
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Marlies_Schild" target="_blank" rel="noopener">Marlies Schild</a> <span class="person-dates">(b. 1981)</span></h4>
-                <p>Austrian World Cup alpine ski racer (slalom &amp; giant slalom specialist); four Olympic medals and five World Cup season titles. Now competes under her married name, Marlies Raich.</p>
-                <p class="photo-credit">Photo: Special Olympics 2017, via Wikimedia Commons (CC0 / public domain).</p>
-              </div>
-            </div>
-
-            <div class="person-card">
-              <img class="person-thumb" src="assets/notable-bernadette-schild.jpg" alt="Bernadette Schild" width="88" height="88">
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Bernadette_Schild" target="_blank" rel="noopener">Bernadette Schild</a> <span class="person-dates">(b. 1990)</span></h4>
-                <p>Austrian World Cup alpine ski racer.</p>
-                <p class="photo-credit">Photo: Christian Jansky, via Wikimedia Commons (CC BY-SA 3.0).</p>
-              </div>
-            </div>
-
-            <div class="person-card">
-              <img class="person-thumb" src="assets/notable-martina-schild.jpg" alt="Martina Schild" width="88" height="88">
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Martina_Schild" target="_blank" rel="noopener">Martina Schild</a> <span class="person-dates">(b. 1981)</span></h4>
-                <p>Swiss World Cup alpine ski racer, competing in downhill and super-G.</p>
-                <p class="photo-credit">Photo: GraceKelly, via Wikimedia Commons (CC BY-SA 3.0).</p>
-              </div>
-            </div>
-
-            <div class="person-card">
-              <div class="person-thumb placeholder" aria-hidden="true"><span>JS</span></div>
-              <div class="person-text">
-                <h4><a href="https://en.wikipedia.org/wiki/Jerry_Schild" target="_blank" rel="noopener">Jerry Schild</a> <span class="person-dates">(1954&ndash;2012)</span></h4>
-                <p>American NASCAR Cup Series driver from Houston, Texas.</p>
-              </div>
-            </div>
+      <ol class="person-index">
+        <li class="person-entry">
+          <div class="person-thumb placeholder" aria-hidden="true"><span>AS</span></div>
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Alfred_Schild" target="_blank" rel="noopener">Alfred Schild</a> <span class="person-dates">1921&ndash;1977</span></h4>
+            <p>Austrian-American physicist at the University of Texas; co-discovered the Kerr&ndash;Schild spacetime metric and introduced &ldquo;Schild&rsquo;s ladder,&rdquo; a construction in differential geometry still used today (and the namesake of a Greg Egan science-fiction novel).</p>
           </div>
-        </div>
-      </details>
+        </li>
+
+        <li class="person-entry">
+          <div class="person-thumb placeholder" aria-hidden="true"><span>ES</span></div>
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Erwin_Schild" target="_blank" rel="noopener">Erwin Schild</a> <span class="person-dates">1920&ndash;2024</span></h4>
+            <p>German-born Canadian Conservative rabbi and author, among the last Kindertransport survivors to lead a congregation.</p>
+          </div>
+        </li>
+
+        <li class="person-entry">
+          <div class="person-thumb placeholder" aria-hidden="true"><span>RS</span></div>
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Rolf_Schild" target="_blank" rel="noopener">Rolf Schild</a> <span class="person-dates">1924&ndash;2003</span> <span class="person-honorific">OBE</span></h4>
+            <p>German-born British businessman, a Jewish refugee from Nazi Germany who founded Huntleigh Technology, a medical equipment company based in Luton, England.</p>
+          </div>
+        </li>
+
+        <li class="person-entry">
+          <div class="person-thumb placeholder" aria-hidden="true"><span>RS</span></div>
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Romuald_Schild" target="_blank" rel="noopener">Romuald Schild</a> <span class="person-dates">1936&ndash;2021</span></h4>
+            <p>Polish archaeologist and professor at the Institute of Archaeology and Ethnology, Polish Academy of Sciences, known for prehistoric Sahara and Nubian research.</p>
+          </div>
+        </li>
+
+        <li class="person-entry">
+          <div class="person-thumb placeholder" aria-hidden="true"><span>TS</span></div>
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Thekla_Schild" target="_blank" rel="noopener">Thekla Schild</a> <span class="person-dates">1890&ndash;1991</span></h4>
+            <p>German architect; in 1913 became the second woman in Germany to earn a degree in architecture. (Wikipedia has a photo of her, but it&rsquo;s used there under fair-use terms that don&rsquo;t allow reuse elsewhere, so it isn&rsquo;t shown here.)</p>
+          </div>
+        </li>
+
+        <li class="person-entry">
+          <img class="person-thumb" src="assets/notable-marlies-schild.jpg" alt="Marlies Schild (Raich)" width="88" height="88">
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Marlies_Schild" target="_blank" rel="noopener">Marlies Schild</a> <span class="person-dates">b. 1981</span></h4>
+            <p>Austrian World Cup alpine ski racer (slalom &amp; giant slalom specialist); four Olympic medals and five World Cup season titles. Now competes under her married name, Marlies Raich.</p>
+            <p class="photo-credit">Photo: Special Olympics 2017, via Wikimedia Commons (CC0 / public domain).</p>
+          </div>
+        </li>
+
+        <li class="person-entry">
+          <img class="person-thumb" src="assets/notable-bernadette-schild.jpg" alt="Bernadette Schild" width="88" height="88">
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Bernadette_Schild" target="_blank" rel="noopener">Bernadette Schild</a> <span class="person-dates">b. 1990</span></h4>
+            <p>Austrian World Cup alpine ski racer.</p>
+            <p class="photo-credit">Photo: Christian Jansky, via Wikimedia Commons (CC BY-SA 3.0).</p>
+          </div>
+        </li>
+
+        <li class="person-entry">
+          <img class="person-thumb" src="assets/notable-martina-schild.jpg" alt="Martina Schild" width="88" height="88">
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Martina_Schild" target="_blank" rel="noopener">Martina Schild</a> <span class="person-dates">b. 1981</span></h4>
+            <p>Swiss World Cup alpine ski racer, competing in downhill and super-G.</p>
+            <p class="photo-credit">Photo: GraceKelly, via Wikimedia Commons (CC BY-SA 3.0).</p>
+          </div>
+        </li>
+
+        <li class="person-entry">
+          <div class="person-thumb placeholder" aria-hidden="true"><span>JS</span></div>
+          <div class="person-text">
+            <h4><a href="https://en.wikipedia.org/wiki/Jerry_Schild" target="_blank" rel="noopener">Jerry Schild</a> <span class="person-dates">1954&ndash;2012</span></h4>
+            <p>American NASCAR Cup Series driver from Houston, Texas.</p>
+          </div>
+        </li>
+      </ol>
     </div>
 
     <p class="source-note">Sources: <a href="https://en.geneanet.org/surnames/SCHILD" target="_blank" rel="noopener">Geneanet</a> &middot; <a href="https://forebears.io/surnames/schild" target="_blank" rel="noopener">Forebears</a> &middot; <a href="https://surnamedb.com/Surname/Schild" target="_blank" rel="noopener">SurnameDB</a> &middot; <a href="https://en.wikipedia.org/wiki/Schild" target="_blank" rel="noopener">Wikipedia: Schild</a> &middot; <a href="https://en.wikipedia.org/wiki/Alfred_Schild" target="_blank" rel="noopener">Wikipedia: Alfred Schild</a></p>
   </section>
 
-  <section class="section reveal" id="contact">
-    <h2>Get In Touch</h2>
-    <p class="lede">Have names, dates, photos, documents, or memories to share, or just want to say hello?</p>
+  <section class="section contribute reveal" id="contribute">
+    <p class="section-eyebrow">Contribute to the Archive</p>
+    <h2>Help Us Keep the Record</h2>
+    <p class="lede">Do you have an old photograph, a family story, a document, a date, or a correction? This archive is only as complete as what the family shares.</p>
 
     <form id="contact-form" class="contact-form">
       <!--
@@ -200,16 +240,17 @@
       <label for="cf-email">Email</label>
       <input type="email" id="cf-email" name="email" required autocomplete="email">
 
-      <label for="cf-message">Message</label>
-      <textarea id="cf-message" name="message" rows="5" required></textarea>
+      <label for="cf-message">What would you like to share?</label>
+      <textarea id="cf-message" name="message" rows="5" required placeholder="A photograph, a story, a date, a correction&hellip;"></textarea>
 
-      <button type="submit" class="btn-submit">Send</button>
+      <button type="submit" class="btn-submit">Send to the Archive</button>
       <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
     </form>
   </section>
 </main>
 
 <footer class="site-footer">
+  <img class="footer-mark" src="assets/shield.svg" alt="" width="20" height="23">
   <p>The Schild Family Archive &middot; a free, ongoing family history project.</p>
 </footer>
 <script src="app.js" defer></script>
