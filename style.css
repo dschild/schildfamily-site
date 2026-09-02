@@ -470,7 +470,7 @@ nav.site-nav {
 .name-article p { max-width: none; }
 
 /* ---------- Timeline ---------- */
-.timeline-wrap { max-width: 68ch; }
+.timeline-wrap { max-width: 68ch; margin-left: auto; margin-right: auto; }
 .timeline-wrap > h3 { text-align: center; }
 
 .timeline-intro {
