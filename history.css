@@ -444,17 +444,20 @@
 .h-mystery p { margin: 0.75rem 0 0; font-size: 0.96rem; }
 .h-mystery .h-status { margin-top: 0.5rem; }
 
-/* ---------- Places list / mini map ---------- */
+/* ---------- Places list / map ---------- */
 .h-place-map {
-  background: var(--charcoal);
-  border: 1px solid var(--brass);
+  background: var(--paper-raised);
+  border: 1px solid var(--paper-line);
   border-radius: 4px;
   padding: 0.6rem;
-  max-width: 560px;
+  max-width: 620px;
   margin: 1.5rem 0;
 }
-.h-place-map svg { width: 100%; height: auto; display: block; }
+.h-place-map svg,
+.h-place-map img { width: 100%; height: auto; display: block; border-radius: 2px; }
 .h-place-map-caption { text-align: center; font-size: 0.8rem; color: var(--ink-faint); margin-top: 0.6rem; }
+.h-place-map-credit { text-align: center; font-size: 0.72rem; color: var(--ink-faint); margin-top: 0.15rem; }
+.h-place-map-credit a { color: inherit; }
 
 /* ---------- Archive cards ---------- */
 .h-archive-card {
