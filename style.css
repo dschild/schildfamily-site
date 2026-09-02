@@ -532,7 +532,7 @@ nav.site-nav {
 
 .map-frame {
   max-width: 640px;
-  margin: 1.5rem 0 0;
+  margin: 1.5rem auto 0;
   padding: 0.6rem;
   background: var(--charcoal);
   border: 1px solid var(--brass);
@@ -547,7 +547,9 @@ nav.site-nav {
 
 .map-figcaption {
   max-width: 640px;
-  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-size: 0.8rem;
   color: var(--ink-faint);
   margin-top: 0.75rem;
