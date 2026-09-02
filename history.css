@@ -210,8 +210,9 @@
 .h-story-card:hover { border-color: var(--brass); }
 @media (hover: hover) { .h-story-card:hover { transform: translateY(-2px); } }
 
-.h-story-card-visual { display: block; aspect-ratio: 16 / 9; background: var(--charcoal); }
+.h-story-card-visual { display: block; aspect-ratio: 16 / 9; background: var(--charcoal); overflow: hidden; }
 .h-story-card-visual svg { width: 100%; height: 100%; display: block; }
+.h-story-card-visual img { width: 100%; height: 100%; display: block; object-fit: cover; }
 .h-story-card-body { display: flex; flex-direction: column; padding: 1.15rem 1.25rem 1.35rem; }
 .h-story-card-eyebrow {
   font-size: 0.7rem;

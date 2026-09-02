@@ -70,9 +70,12 @@
   function storyCardHTML(id) {
     var s = D.stories[id];
     if (!s) return "";
+    var visual = s.cardImage
+      ? '<img src="' + s.cardImage.src + '" alt="" loading="lazy">'
+      : docFrameSVG();
     return (
       '<a class="h-story-card" href="/history/stories/' + id + '/">' +
-      '<span class="h-story-card-visual" aria-hidden="true">' + docFrameSVG() + "</span>" +
+      '<span class="h-story-card-visual" aria-hidden="true">' + visual + "</span>" +
       '<span class="h-story-card-body">' +
       '<span class="h-story-card-eyebrow">' + s.dateRange + "</span>" +
       '<span class="h-story-card-title">' + s.title + "</span>" +
