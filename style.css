@@ -529,6 +529,7 @@ nav.site-nav {
 
 /* ---------- Map ---------- */
 .map-figure { max-width: none; }
+.map-figure h3 { text-align: center; }
 
 .map-frame {
   max-width: 640px;
