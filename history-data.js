@@ -277,7 +277,7 @@ window.HistoryData = {
       stories: ["born-to-race"],
       places: ["meyer-speedway", "darlington-raceway-sc", "houston-motorsports-park"],
       events: ["charles-ray-racing-playland", "jerry-schild-meyer-debut-1972", "jerry-schild-nascar-cup-1974", "jerry-schild-state-championship-2003", "jerry-schild-hmp-championship-2006", "jerry-schild-kidney-donation-2009", "jerry-schild-death-2012"],
-      documents: ["jerry-schild-obituary", "jerry-schild-nascar-record-pending", "jerry-schild-racing-photo-pending"]
+      documents: ["jerry-schild-obituary", "jerry-schild-nascar-record-pending", "jerry-schild-racing-photo-pending", "darlington-raceway-context-2003"]
     },
     "linda-schild-high": {
       id: "linda-schild-high",
@@ -677,7 +677,7 @@ window.HistoryData = {
       people: ["charles-ray-schild", "larry-schild-racer", "jerry-schild-racer", "linda-schild-high", "gina-schild-knowles", "jt-schild", "mason-mitchell-hmp"],
       places: ["playland-park-houston", "meyer-speedway", "darlington-raceway-sc", "houston-motorsports-park"],
       events: ["charles-ray-racing-playland", "jerry-schild-meyer-debut-1972", "jerry-schild-nascar-cup-1974", "jerry-schild-state-championship-2003", "jerry-schild-hmp-championship-2006", "jerry-schild-kidney-donation-2009", "jerry-schild-death-2012", "gina-hmp-lease-2019", "hmp-nascar-sanctioning-2020"],
-      documents: ["jerry-schild-obituary", "playland-park-context-pending", "jerry-schild-nascar-record-pending", "jerry-schild-racing-photo-pending", "gina-schild-knowles-photo-pending"]
+      documents: ["jerry-schild-obituary", "playland-park-context-pending", "darlington-raceway-context-2003", "jerry-schild-nascar-record-pending", "jerry-schild-racing-photo-pending", "gina-schild-knowles-photo-pending"]
     }
   },
 
@@ -1164,12 +1164,12 @@ window.HistoryData = {
       year: 2012,
       date: "2012",
       title: "Jerry Schild Dies",
-      description: "Jerry Schild died in 2012, closing out a racing career that spanned four decades, from a Houston short track debut in 1972 to a NASCAR Cup season in 1974 and years of short track racing that followed.",
+      description: "Jerry Schild died in 2012 in Tioga, North Dakota. Press coverage at the time, including the Williston Herald, reported his death as a shooting, and Texas racing figures who knew him were quoted remembering him as a local legend of the sport. His death closed out a racing career that spanned four decades, from a Houston short track debut in 1972 to a NASCAR Cup season in 1974 and years of short track racing that followed.",
       people: ["jerry-schild-racer"],
       places: [],
       story: "born-to-race",
       document: "jerry-schild-obituary",
-      sourceCount: 1
+      sourceCount: 2
     },
     {
       id: "gina-hmp-lease-2019",
@@ -1643,19 +1643,39 @@ window.HistoryData = {
       people: ["jerry-schild-racer"],
       place: "houston-motorsports-park",
       hasImage: false,
-      transcription: "Records Jerry Schild's racing career from his 1972 start at Meyer Speedway through his 1974 NASCAR top series season, his return to short track racing, his 2009 kidney donation to his sister Linda, and his death in 2012.",
-      sourceCount: 1
+      transcription: "Records Jerry Schild's racing career from his 1972 start at Meyer Speedway through his 1974 NASCAR top series season, his return to short track racing, his 2009 kidney donation to his sister Linda, and his death in 2012 in Tioga, North Dakota, which press coverage including the Williston Herald reported as a shooting.",
+      sourceCount: 2
     },
     "playland-park-context-pending": {
       id: "playland-park-context-pending",
-      title: "Playland Park Stock Car Track, Houston (Photograph Pending)",
+      title: "The Skyrocket Roller Coaster, Playland Park, Houston",
       type: "Historical Photograph",
-      date: "1940&ndash;1966",
+      date: "May 1943",
       people: [],
       place: "playland-park-houston",
-      hasImage: false,
-      pendingNote: "Playland Park closed in 1966 and no trace of the site remains. This archive has not yet located a rights cleared photograph of the track itself, so no image is shown here rather than substituting an unrelated stock photograph.",
-      transcription: "This record is reserved for a photograph of the Playland Park stock car track, where Charles Ray Schild raced, should a rights cleared image be located.",
+      hasImage: true,
+      image: {
+        src: "/assets/history-playland-park-skyrocket.jpg",
+        alt: "A black and white 1943 photograph of the Skyrocket roller coaster at Playland Park in Houston, Texas, with its wooden structure and track rising against the sky.",
+        credit: "Photograph by John Vachon, May 1943, Farm Security Administration&ndash;Office of War Information Collection, Library of Congress. Public domain, via Wikimedia Commons."
+      },
+      transcription: "The Skyrocket roller coaster at Playland Park, photographed in May 1943 by John Vachon for the Farm Security Administration. This image shows the amusement park where Charles Ray Schild raced stock cars in the 1950s, though it depicts the Skyrocket and midway rather than the stock car track itself, no photograph of which has yet been located. Playland Park closed in 1966 and no trace of the site remains today.",
+      sourceCount: 2
+    },
+    "darlington-raceway-context-2003": {
+      id: "darlington-raceway-context-2003",
+      title: "NASCAR Busch Series Race, Darlington Raceway",
+      type: "Historical Photograph",
+      date: "August 30, 2003",
+      people: [],
+      place: "darlington-raceway-sc",
+      hasImage: true,
+      image: {
+        src: "/assets/history-darlington-raceway.jpg",
+        alt: "A NASCAR Busch Series stock car race at Darlington Raceway, with cars racing through a turn in front of a full grandstand of spectators.",
+        credit: "U.S. Navy photo by Chief Photographer's Mate Johnny Bivera, August 30, 2003. Public domain, via Wikimedia Commons."
+      },
+      transcription: "A NASCAR Busch Series race at Darlington Raceway in South Carolina, photographed in 2003. This is a contextual photograph of the track where Jerry Schild raced in NASCAR's top series in 1974; it does not show his race, which predates this photograph by nearly three decades, and no image of his own 1974 race has been located.",
       sourceCount: 1
     },
     "jerry-schild-nascar-record-pending": {
@@ -1978,6 +1998,12 @@ window.HistoryData = {
       note: "General encyclopedia entry confirming Jerry Schild's 1974 NASCAR top series season, his five starts, and his eighth place finish at Darlington Raceway.",
       status: "confirmed"
     },
+    "s-williston-herald-jerry-schild": {
+      id: "s-williston-herald-jerry-schild",
+      title: "Williston Herald, &ldquo;Shooting victim was &lsquo;local legend&rsquo; in Texas racing&rdquo;",
+      note: "News coverage of Jerry Schild's 2012 death in Tioga, North Dakota, reported as a shooting, including remarks from people who knew him in Texas racing.",
+      status: "confirmed"
+    },
     "s-legacy-jerry-schild-obit": {
       id: "s-legacy-jerry-schild-obit",
       title: "Houston Chronicle obituary for Jerry Schild, via legacy.com",
@@ -2006,6 +2032,18 @@ window.HistoryData = {
       id: "s-wikipedia-playland-park",
       title: "Wikipedia, &ldquo;Playland Park (Houston)&rdquo;",
       note: "General encyclopedia entry confirming Playland Park operated in Houston from 1940 to 1966 and included a stock car racing track.",
+      status: "confirmed"
+    },
+    "s-img-playland-park-skyrocket": {
+      id: "s-img-playland-park-skyrocket",
+      title: "Photograph of the Skyrocket roller coaster, Playland Park, 1943, Library of Congress via Wikimedia Commons",
+      note: "Photograph by John Vachon, May 1943, Farm Security Administration&ndash;Office of War Information Collection, Library of Congress, digital ID fsa.8d19660. Public domain as a work of the U.S. federal government. The same file is used to illustrate Playland Park and the Skyrocket on Wikipedia.",
+      status: "confirmed"
+    },
+    "s-img-darlington-raceway-2003": {
+      id: "s-img-darlington-raceway-2003",
+      title: "Photograph of a NASCAR Busch Series race at Darlington Raceway, 2003, U.S. Navy via Wikimedia Commons",
+      note: "U.S. Navy photo by Chief Photographer's Mate Johnny Bivera, August 30, 2003. Public domain as a work of a U.S. Navy sailor taken in the course of official duties.",
       status: "confirmed"
     },
     "s-chron-meyer-speedway": {
@@ -2111,11 +2149,12 @@ window.HistoryData = {
     "jerry-schild-state-championship-2003": ["s-legacy-jerry-schild-obit"],
     "jerry-schild-hmp-championship-2006": ["s-legacy-jerry-schild-obit"],
     "jerry-schild-kidney-donation-2009": ["s-legacy-jerry-schild-obit"],
-    "jerry-schild-death-2012": ["s-legacy-jerry-schild-obit"],
+    "jerry-schild-death-2012": ["s-legacy-jerry-schild-obit", "s-williston-herald-jerry-schild"],
     "gina-hmp-lease-2019": ["s-nascar-gina-knowles", "s-shorttrack-scene-hmp"],
     "hmp-nascar-sanctioning-2020": ["s-nascar-gina-knowles", "s-shorttrack-scene-hmp"],
-    "jerry-schild-obituary": ["s-legacy-jerry-schild-obit"],
-    "playland-park-context-pending": ["s-wikipedia-playland-park"],
+    "jerry-schild-obituary": ["s-legacy-jerry-schild-obit", "s-williston-herald-jerry-schild"],
+    "playland-park-context-pending": ["s-wikipedia-playland-park", "s-img-playland-park-skyrocket"],
+    "darlington-raceway-context-2003": ["s-img-darlington-raceway-2003"],
     "jerry-schild-nascar-record-pending": ["s-wikipedia-jerry-schild", "s-legacy-jerry-schild-obit"],
     "jerry-schild-racing-photo-pending": ["s-legacy-jerry-schild-obit"],
     "gina-schild-knowles-photo-pending": ["s-nascar-gina-knowles"]
