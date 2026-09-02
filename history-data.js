@@ -174,6 +174,71 @@ window.HistoryData = {
       places: ["angus-brae-vineyard"],
       events: ["angus-brae-purchased-2001"],
       documents: []
+    },
+    "erwin-schild-rabbi": {
+      id: "erwin-schild-rabbi",
+      name: "Rabbi Erwin Schild",
+      years: "1920&ndash;2024",
+      birthPlace: "Cologne M&uuml;lheim, Germany",
+      role: "Rabbi &middot; Author &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "Born in Cologne M&uuml;lheim in 1920, imprisoned at Dachau at eighteen after the November 1938 pogrom, and later interned in Canada as an enemy alien after fleeing Nazi Germany. Ordained a rabbi, he led Toronto&rsquo;s Adath Israel Congregation for more than forty years and devoted much of his later life to Christian and Jewish dialogue and reconciliation, including repeated returns to Germany as a lecturer. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["erwin-schild"],
+      places: ["cologne-muelheim-germany", "wurzburg-germany", "dachau-germany", "london-england", "canada-wartime-internment", "toronto-canada", "adath-israel-congregation"],
+      events: ["birth-erwin-1920", "kristallnacht-1938", "dachau-imprisoned-1938", "dachau-released-1938", "escape-to-britain-1939", "deported-canada-1940", "released-internment-1942", "ordained-rabbi-erwin", "joins-adath-israel-1947", "retires-adath-israel-1989", "order-of-canada-2001", "death-erwin-2024"],
+      documents: ["dachau-remembrance-book-entry", "order-of-canada-citation", "wurzburg-seminary-photo", "erwin-schild-portrait-pending", "erwin-schild-germany-visits-pending", "adath-israel-congregation-life-pending"]
+    },
+    "hermann-schild-cologne": {
+      id: "hermann-schild-cologne",
+      name: "Hermann Schild",
+      years: "d. Holocaust, 1941 or later",
+      birthPlace: "Germany",
+      role: "Businessman &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "Erwin Schild&rsquo;s father, a businessman in Cologne M&uuml;lheim. In 1941 he was deported, with his wife Hetti, to the Riga ghetto. He did not survive. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["erwin-schild"],
+      places: ["cologne-muelheim-germany"],
+      events: ["family-deported-riga-1941"],
+      documents: ["erwin-family-photo-pending"]
+    },
+    "hetti-schild-neugarten": {
+      id: "hetti-schild-neugarten",
+      name: "Hetti Schild",
+      years: "d. Holocaust, 1941 or later",
+      birthPlace: "Germany",
+      role: "Wider Schild Story",
+      wideStory: true,
+      summary: "Erwin Schild&rsquo;s mother, born Hetti Neugarten. In 1941 she was deported, with her husband Hermann, to the Riga ghetto. She did not survive. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["erwin-schild"],
+      places: ["cologne-muelheim-germany"],
+      events: ["family-deported-riga-1941"],
+      documents: ["erwin-family-photo-pending"]
+    },
+    "kurt-schild-brother": {
+      id: "kurt-schild-brother",
+      name: "Kurt Schild",
+      years: "20th century",
+      birthPlace: "Germany",
+      role: "Wider Schild Story",
+      wideStory: true,
+      summary: "Erwin Schild&rsquo;s older brother. Accounts describe him as among the last Jews able to leave Germany, emigrating to the United States in 1940, where he later served in the American military. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["erwin-schild"],
+      places: ["cologne-muelheim-germany"],
+      events: ["kurt-emigrates-1940"],
+      documents: ["erwin-family-photo-pending"]
+    },
+    "margot-schild-sister": {
+      id: "margot-schild-sister",
+      name: "Margot Schild",
+      years: "20th century",
+      birthPlace: "Germany",
+      role: "Wider Schild Story",
+      wideStory: true,
+      summary: "Erwin Schild&rsquo;s younger sister. Deported with her parents to the Riga ghetto in 1941, she survived further camps and a death march before her liberation, and later settled in the United States. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["erwin-schild"],
+      places: ["cologne-muelheim-germany"],
+      events: ["family-deported-riga-1941"],
+      documents: ["erwin-family-photo-pending"]
     }
   },
 
@@ -323,6 +388,83 @@ window.HistoryData = {
       people: [],
       stories: ["schildestatebarossa"],
       events: ["ann-jacobs-arrives-1839", "moorooroo-vines-planted-1847"]
+    },
+    "cologne-muelheim-germany": {
+      id: "cologne-muelheim-germany",
+      name: "Cologne M&uuml;lheim, Germany",
+      region: "Rhine Province, Germany",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A district of Cologne on the right bank of the Rhine, where Erwin Schild was born in 1920 into the family of businessman Hermann Schild and his wife Hetti. This entry describes the wider district, and is not evidence of a direct family connection.",
+      people: ["erwin-schild-rabbi", "hermann-schild-cologne", "hetti-schild-neugarten", "kurt-schild-brother", "margot-schild-sister"],
+      stories: ["erwin-schild"],
+      events: ["birth-erwin-1920", "family-deported-riga-1941", "kurt-emigrates-1940"]
+    },
+    "wurzburg-germany": {
+      id: "wurzburg-germany",
+      name: "W&uuml;rzburg, Germany",
+      region: "Bavaria, Germany",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A city in Bavaria, home to the Israelitische Lehrerbildungsanstalt, the Jewish Teachers Seminary where Erwin Schild was studying when it was attacked and destroyed during the November 1938 pogrom. This entry describes the wider city, and is not evidence of a direct family connection.",
+      people: ["erwin-schild-rabbi"],
+      stories: ["erwin-schild"],
+      events: ["kristallnacht-1938"]
+    },
+    "dachau-germany": {
+      id: "dachau-germany",
+      name: "Dachau, Germany",
+      region: "Bavaria, Germany",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "The site of the Dachau concentration camp, where Erwin Schild was imprisoned from November 12 to December 13, 1938, at the age of eighteen. This entry describes the historical site and its memorial today, and is not evidence of a direct family connection.",
+      people: ["erwin-schild-rabbi"],
+      stories: ["erwin-schild"],
+      events: ["dachau-imprisoned-1938", "dachau-released-1938"]
+    },
+    "london-england": {
+      id: "london-england",
+      name: "London, England",
+      region: "England, Britain",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "The city where Erwin Schild resumed his religious studies at a yeshiva after fleeing Nazi Germany in 1939, before British authorities classified him as an enemy alien in 1940 and he was sent to Canada. This entry describes the wider city, and is not evidence of a direct family connection.",
+      people: ["erwin-schild-rabbi"],
+      stories: ["erwin-schild"],
+      events: ["escape-to-britain-1939"]
+    },
+    "canada-wartime-internment": {
+      id: "canada-wartime-internment",
+      name: "Wartime Internment in Canada",
+      region: "Canada",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "In 1940, Erwin Schild was among refugees from Nazi Germany and Austria whom Britain classified as enemy aliens and deported to Canada, where he was interned. Sources describe an initial period in a prisoner of war style camp followed by a refugee camp, without naming a specific site, so no single camp is identified here. He was released in February 1942. This entry describes the general policy and experience, and is not evidence of a direct family connection.",
+      people: ["erwin-schild-rabbi"],
+      stories: ["erwin-schild"],
+      events: ["deported-canada-1940", "released-internment-1942"]
+    },
+    "toronto-canada": {
+      id: "toronto-canada",
+      name: "Toronto, Ontario",
+      region: "Ontario, Canada",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "The city where Erwin Schild resumed his studies after his release from internment in 1942, was ordained as a rabbi, led Adath Israel Congregation for more than forty years, and died on January 6, 2024, at the age of 103. This entry describes the wider city, and is not evidence of a direct family connection.",
+      people: ["erwin-schild-rabbi"],
+      stories: ["erwin-schild"],
+      events: ["ordained-rabbi-erwin", "joins-adath-israel-1947", "retires-adath-israel-1989", "order-of-canada-2001", "death-erwin-2024"]
+    },
+    "adath-israel-congregation": {
+      id: "adath-israel-congregation",
+      name: "Adath Israel Congregation",
+      region: "Toronto, Ontario",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A Conservative synagogue in Toronto that Erwin Schild joined as rabbi in September 1947, when it numbered roughly 150 families. He remained its rabbi for more than forty years, retiring in 1989, and a wing of the synagogue building was later named for him. This entry describes the congregation&rsquo;s wider history, and is not evidence of a direct family connection.",
+      people: ["erwin-schild-rabbi"],
+      stories: ["erwin-schild"],
+      events: ["joins-adath-israel-1947", "retires-adath-israel-1989"]
     }
   },
 
@@ -375,6 +517,19 @@ window.HistoryData = {
       places: ["barossa-valley-australia", "rowland-flat-australia", "narrow-road-vineyard", "three-springs-vineyard", "angus-brae-vineyard", "workshop-vineyard", "kleemann-vineyard", "moorooroo-vineyard"],
       events: ["ann-jacobs-arrives-1839", "moorooroo-vines-planted-1847", "kleemann-planted-1916", "narrow-road-settled-1952", "ben-schild-dies-1956", "workshop-vineyard-purchased-1993", "workshop-named-1999", "angus-brae-purchased-2001", "winery-sale-2022"],
       documents: ["barossa-valley-aerial-view", "barossa-aerial-1987", "barossa-grape-delivery-1945", "barossa-vintage-1955", "barossa-grape-picking-historic", "rowland-flat-historic-view", "barossa-vineyard-rows", "barossa-old-vines-context", "ann-jacobs-land-grant-diary", "ben-alma-schild-photo-pending"]
+    },
+    "erwin-schild": {
+      id: "erwin-schild",
+      title: "From Dachau to a Life of Reconciliation",
+      subtitle: "The Extraordinary Life of Rabbi Erwin Schild",
+      dateRange: "1920&ndash;2024",
+      location: "Cologne, W&uuml;rzburg &amp; Dachau, Germany &middot; Toronto, Canada",
+      wideStory: true,
+      teaser: "At eighteen, Erwin Schild was imprisoned at Dachau. Decades later he returned to Germany again and again, not seeking revenge, but conversation, after building more than forty years of religious leadership in Toronto.",
+      people: ["erwin-schild-rabbi", "hermann-schild-cologne", "hetti-schild-neugarten", "kurt-schild-brother", "margot-schild-sister"],
+      places: ["cologne-muelheim-germany", "wurzburg-germany", "dachau-germany", "london-england", "canada-wartime-internment", "toronto-canada", "adath-israel-congregation"],
+      events: ["birth-erwin-1920", "kristallnacht-1938", "dachau-imprisoned-1938", "dachau-released-1938", "escape-to-britain-1939", "deported-canada-1940", "released-internment-1942", "ordained-rabbi-erwin", "joins-adath-israel-1947", "retires-adath-israel-1989", "order-of-canada-2001", "death-erwin-2024", "family-deported-riga-1941", "kurt-emigrates-1940"],
+      documents: ["dachau-remembrance-book-entry", "order-of-canada-citation", "wurzburg-seminary-photo", "munich-synagogue-1938-photo", "dachau-memorial-photo", "cologne-muelheim-photo", "wurzburg-town-photo", "adath-israel-building-photo", "erwin-schild-portrait-pending", "erwin-schild-germany-visits-pending", "adath-israel-congregation-life-pending", "erwin-family-photo-pending"]
     }
   },
 
@@ -628,6 +783,166 @@ window.HistoryData = {
       places: ["rowland-flat-australia", "barossa-valley-australia"],
       story: "schildestatebarossa",
       sourceCount: 2
+    },
+    {
+      id: "birth-erwin-1920",
+      year: 1920,
+      date: "March 9, 1920",
+      title: "Erwin Schild Born in Cologne M&uuml;lheim",
+      description: "Erwin Schild was born on March 9, 1920, in Cologne M&uuml;lheim, Germany, to businessman Hermann Schild and his wife Hetti, n&eacute;e Neugarten. He grew up with two siblings, an older brother Kurt and a younger sister Margot.",
+      people: ["erwin-schild-rabbi", "hermann-schild-cologne", "hetti-schild-neugarten"],
+      places: ["cologne-muelheim-germany"],
+      story: "erwin-schild",
+      sourceCount: 3
+    },
+    {
+      id: "kristallnacht-1938",
+      year: 1938,
+      date: "November 9&ndash;10, 1938",
+      title: "The November Pogrom Reaches W&uuml;rzburg",
+      description: "Erwin was studying at the Israelitische Lehrerbildungsanstalt, the Jewish Teachers Seminary in W&uuml;rzburg, when the November pogrom, commonly known as Kristallnacht, reached the city. A mob ransacked his dormitory, and he witnessed the seminary building and its library, including Torah scrolls, burning the following day. Students, Erwin among them, were arrested in the aftermath.",
+      people: ["erwin-schild-rabbi"],
+      places: ["wurzburg-germany"],
+      story: "erwin-schild",
+      document: "wurzburg-seminary-photo",
+      sourceCount: 2
+    },
+    {
+      id: "dachau-imprisoned-1938",
+      year: 1938,
+      date: "November 12, 1938",
+      title: "Erwin Schild Imprisoned at Dachau",
+      description: "At eighteen years old, Erwin Schild was imprisoned at Dachau concentration camp in the roundup that followed the November pogrom.",
+      people: ["erwin-schild-rabbi"],
+      places: ["dachau-germany"],
+      story: "erwin-schild",
+      document: "dachau-remembrance-book-entry",
+      sourceCount: 1
+    },
+    {
+      id: "dachau-released-1938",
+      year: 1938,
+      date: "December 13, 1938",
+      title: "Released From Dachau",
+      description: "Erwin Schild was released from Dachau after a little over four weeks, on the condition that he emigrate from Germany. The Dachau Remembrance Book records these dates as the official basis for his imprisonment there.",
+      people: ["erwin-schild-rabbi"],
+      places: ["dachau-germany"],
+      story: "erwin-schild",
+      document: "dachau-remembrance-book-entry",
+      sourceCount: 1
+    },
+    {
+      id: "escape-to-britain-1939",
+      year: 1939,
+      date: "1939",
+      title: "Escape to the Netherlands, Then Britain",
+      description: "After his release, Erwin Schild left Nazi Germany, traveling first to the Netherlands and then, in the spring of 1939, to Britain, where he resumed his religious studies at a yeshiva in London. Exact travel dates beyond this general route are not detailed in the sources consulted.",
+      people: ["erwin-schild-rabbi"],
+      places: ["london-england"],
+      story: "erwin-schild",
+      sourceCount: 1
+    },
+    {
+      id: "family-deported-riga-1941",
+      year: 1941,
+      date: "1941",
+      title: "Hermann, Hetti, and Margot Schild Deported to Riga",
+      description: "In 1941, Erwin&rsquo;s parents, Hermann and Hetti Schild, were deported along with his younger sister Margot to the Riga ghetto. Hermann and Hetti did not survive. Margot survived further camps and a death march, was liberated, and later settled in the United States. Sources agree on this outcome while differing slightly in the detail they record, and this entry follows the fuller, more specific account.",
+      people: ["hermann-schild-cologne", "hetti-schild-neugarten", "margot-schild-sister"],
+      places: ["cologne-muelheim-germany"],
+      story: "erwin-schild",
+      sourceCount: 2
+    },
+    {
+      id: "kurt-emigrates-1940",
+      year: 1940,
+      date: "1940",
+      title: "Kurt Schild Emigrates to the United States",
+      description: "Erwin&rsquo;s older brother Kurt Schild emigrated to the United States in 1940, described in one account as among the last Jews able to leave Germany. He later served in the American military.",
+      people: ["kurt-schild-brother"],
+      places: ["cologne-muelheim-germany"],
+      story: "erwin-schild",
+      sourceCount: 1
+    },
+    {
+      id: "deported-canada-1940",
+      year: 1940,
+      date: "1940",
+      title: "Classified an Enemy Alien and Sent to Canada",
+      description: "In May 1940, with Nazi Germany advancing through Western Europe, British authorities classified Erwin Schild, a refugee from Nazi persecution, as an enemy alien. He was deported to Canada, arriving at Quebec City in July 1940, and was interned there. His classification resulted from wartime nationality policy toward German and Austrian nationals in Britain, not from any action of his own.",
+      people: ["erwin-schild-rabbi"],
+      places: ["canada-wartime-internment"],
+      story: "erwin-schild",
+      sourceCount: 2
+    },
+    {
+      id: "released-internment-1942",
+      year: 1942,
+      date: "February 1942",
+      title: "Released From Internment",
+      description: "Erwin Schild was released from internment in Canada in February 1942, with assistance from the Canadian Jewish Congress, after continuing his religious studies while interned. He went on to study at the University of Toronto and at a yeshiva there.",
+      people: ["erwin-schild-rabbi"],
+      places: ["canada-wartime-internment", "toronto-canada"],
+      story: "erwin-schild",
+      sourceCount: 1
+    },
+    {
+      id: "ordained-rabbi-erwin",
+      year: 1947,
+      date: "1947",
+      title: "Ordained as a Rabbi",
+      description: "Erwin Schild completed his rabbinical studies in Toronto and was ordained. Most North American sources place his ordination in 1947, the same year he became rabbi of Adath Israel Congregation; one German biographical source instead gives December 1944 for a rabbinical ordination. This entry follows the majority of sources and notes the discrepancy rather than resolving it outright.",
+      people: ["erwin-schild-rabbi"],
+      places: ["toronto-canada"],
+      story: "erwin-schild",
+      sourceCount: 3
+    },
+    {
+      id: "joins-adath-israel-1947",
+      year: 1947,
+      date: "September 1947",
+      title: "Becomes Rabbi of Adath Israel Congregation",
+      description: "In September 1947, Erwin Schild became rabbi of Adath Israel Congregation in Toronto, then numbering roughly 150 families. It was his only pulpit position, and he remained its rabbi for more than forty years.",
+      people: ["erwin-schild-rabbi"],
+      places: ["adath-israel-congregation", "toronto-canada"],
+      story: "erwin-schild",
+      document: "adath-israel-building-photo",
+      sourceCount: 3
+    },
+    {
+      id: "retires-adath-israel-1989",
+      year: 1989,
+      date: "1989",
+      title: "Retires as Congregational Rabbi",
+      description: "After more than forty years as its rabbi, Erwin Schild retired from the pulpit at Adath Israel Congregation in 1989 and was named Rabbi Emeritus. Under his leadership the congregation had grown substantially, and a later expansion of the synagogue building was named the Rabbi Erwin Schild Wing.",
+      people: ["erwin-schild-rabbi"],
+      places: ["adath-israel-congregation"],
+      story: "erwin-schild",
+      document: "adath-israel-building-photo",
+      sourceCount: 2
+    },
+    {
+      id: "order-of-canada-2001",
+      year: 2001,
+      date: "Awarded May 30, 2001 &middot; Invested October 17, 2001",
+      title: "Member of the Order of Canada",
+      description: "Erwin Schild was made a Member of the Order of Canada, Canada&rsquo;s highest civilian honour. The Governor General&rsquo;s citation states that he devoted many years to improving dialogue between the Christian and Jewish faiths, promoting harmony at home and abroad, and that he traveled extensively throughout Germany as an invited lecturer. He had earlier received Germany&rsquo;s Officer&rsquo;s Cross of the Order of Merit, in 2000, for the same body of reconciliation work.",
+      people: ["erwin-schild-rabbi"],
+      places: ["toronto-canada"],
+      story: "erwin-schild",
+      document: "order-of-canada-citation",
+      sourceCount: 2
+    },
+    {
+      id: "death-erwin-2024",
+      year: 2024,
+      date: "January 6, 2024",
+      title: "Erwin Schild Dies in Toronto",
+      description: "Erwin Schild died in Toronto on January 6, 2024, at the age of 103.",
+      people: ["erwin-schild-rabbi"],
+      places: ["toronto-canada"],
+      story: "erwin-schild",
+      sourceCount: 3
     }
   ],
 
@@ -902,6 +1217,174 @@ window.HistoryData = {
       pendingNote: "The official Schild Estate website features historic family and property photography that would suit this record well, but reuse permission for that material has not yet been confirmed. This record is a placeholder until a rights cleared photograph, or permission from the family, can be obtained.",
       transcription: "This record is reserved for a photograph of Ben and Alma Schild, or of the original homestead they settled on Narrow Road in 1952, once a rights cleared image can be located or permission is granted.",
       sourceCount: 0
+    },
+    "dachau-remembrance-book-entry": {
+      id: "dachau-remembrance-book-entry",
+      title: "Dachau Remembrance Book &mdash; Erwin Schild",
+      type: "Memorial Record",
+      date: "November 12&ndash;December 13, 1938",
+      people: ["erwin-schild-rabbi"],
+      place: "dachau-germany",
+      hasImage: false,
+      pendingNote: "This record summarizes the official Dachau Remembrance Book entry rather than reproducing it directly. No rights cleared scan of the entry itself is held by this archive.",
+      transcription: "The Dachau Remembrance Book records Erwin Schild&rsquo;s imprisonment at the camp from November 12, 1938, to December 13, 1938, following his arrest in the aftermath of the November pogrom in W&uuml;rzburg. He was eighteen years old.",
+      sourceCount: 1
+    },
+    "order-of-canada-citation": {
+      id: "order-of-canada-citation",
+      title: "Order of Canada Citation &mdash; Erwin Schild",
+      type: "Honours Citation",
+      date: "Awarded May 30, 2001 &middot; Invested October 17, 2001",
+      people: ["erwin-schild-rabbi"],
+      place: "toronto-canada",
+      hasImage: false,
+      pendingNote: "The Governor General&rsquo;s office may hold an official investiture photograph, but reuse rights for that image have not been confirmed, so no photograph is shown here.",
+      transcription: "&ldquo;Rabbi Emeritus of the Adath Israel Congregation, he has devoted many years to improving dialogue between the Christian and Jewish faiths, promoting harmony at home and abroad. An active member of the community, he is admired by his contemporaries for his leadership, generosity, commitment to multiculturalism and positive interfaith relations. He has travelled extensively throughout Germany as an invited lecturer. A Holocaust survivor, he is the author of World Through My Window and The Very Narrow Bridge, which emphasize the significance of tolerance, values and ethics in our daily lives.&rdquo;",
+      sourceCount: 1
+    },
+    "wurzburg-seminary-photo": {
+      id: "wurzburg-seminary-photo",
+      title: "The J&uuml;dische Lehrerbildungsanstalt Building, W&uuml;rzburg",
+      type: "Historical Photograph",
+      date: "1914",
+      people: [],
+      place: "wurzburg-germany",
+      hasImage: true,
+      image: {
+        src: "/assets/history-wurzburg-seminary.jpg",
+        alt: "A black and white photograph from 1914 of a tall narrow townhouse on a cobbled street in Würzburg, with shuttered windows and a steep roof.",
+        credit: "Photograph by Nathan Bamberger, 1914, public domain, via Wikimedia Commons. The Jewish Teachers Seminary building at Kettengasse 6, Würzburg."
+      },
+      transcription: "This 1914 photograph shows the seminary building at Kettengasse 6 in Würzburg, home to the Israelitische Lehrerbildungsanstalt, decades before Erwin Schild studied there. The building was attacked during the November 1938 pogrom.",
+      sourceCount: 1
+    },
+    "munich-synagogue-1938-photo": {
+      id: "munich-synagogue-1938-photo",
+      title: "A Synagogue Destroyed During the November 1938 Pogrom",
+      type: "Historical Photograph",
+      date: "November 1938",
+      people: [],
+      place: "wurzburg-germany",
+      hasImage: true,
+      image: {
+        src: "/assets/history-munich-synagogue-1938.jpg",
+        alt: "A black and white photograph of a large stone synagogue with a damaged roof and scorched walls, photographed in November 1938 with onlookers gathered outside.",
+        credit: "Bundesarchiv Bild 146-1970-041-46, licensed CC BY SA 3.0 DE, via Wikimedia Commons. The Ohel Jakob Synagogue, Munich, photographed after the November 1938 pogrom."
+      },
+      transcription: "This photograph shows the Ohel Jakob Synagogue in Munich after the November 1938 pogrom, not the seminary in Würzburg where Erwin Schild was studying. It is used here to show the nature of the destruction taking place across Germany that week, without a rights cleared photograph of Würzburg itself.",
+      sourceCount: 1
+    },
+    "dachau-memorial-photo": {
+      id: "dachau-memorial-photo",
+      title: "Dachau Memorial Site Today",
+      type: "Contemporary Photograph",
+      date: "2021",
+      people: [],
+      place: "dachau-germany",
+      hasImage: true,
+      image: {
+        src: "/assets/history-dachau-memorial.jpg",
+        alt: "A wide view of the gravel roll call yard at the Dachau Memorial Site, with long low former camp buildings along the horizon under a blue sky with scattered clouds.",
+        credit: "Photograph by Netha Hussain, 2021, licensed CC0, via Wikimedia Commons. The former roll call yard at the Dachau Memorial Site."
+      },
+      transcription: "The former roll call yard at Dachau, photographed as it appears today as a memorial and historical site. This is a present day photograph, shown to give a sense of the place rather than to depict conditions in 1938.",
+      sourceCount: 1
+    },
+    "cologne-muelheim-photo": {
+      id: "cologne-muelheim-photo",
+      title: "Cologne M&uuml;lheim on the Rhine",
+      type: "Contemporary Photograph",
+      date: "2012",
+      people: [],
+      place: "cologne-muelheim-germany",
+      hasImage: true,
+      image: {
+        src: "/assets/history-cologne-muelheim.jpg",
+        alt: "A wide riverside view of Cologne Mülheim, showing the Rhine river, a church with a spire, and buildings along the promenade, seen from a bridge.",
+        credit: "Photograph by A.Savin, 2012, licensed CC BY SA 3.0, via Wikimedia Commons. The Rhine and the promenade in Cologne Mülheim, seen from the Mülheim Bridge."
+      },
+      transcription: "A present day view of Cologne Mülheim on the Rhine, the district where Erwin Schild was born in 1920. This is a general view of the district, not a photograph of any specific family address.",
+      sourceCount: 1
+    },
+    "wurzburg-town-photo": {
+      id: "wurzburg-town-photo",
+      title: "W&uuml;rzburg Old Town and the Main River",
+      type: "Contemporary Photograph",
+      date: "2022",
+      people: [],
+      place: "wurzburg-germany",
+      hasImage: true,
+      image: {
+        src: "/assets/history-wurzburg-town.jpg",
+        alt: "A panoramic view of Würzburg's old town along the Main river, with church spires and a hilltop fortress visible above the rooftops.",
+        credit: "Photograph by Robert von Oliva (naruciakk), 2022, licensed CC0, via Wikimedia Commons. A panorama of Würzburg's old town and the Main river."
+      },
+      transcription: "A present day panorama of Würzburg, the city where Erwin Schild was studying at the Jewish Teachers Seminary when the November 1938 pogrom reached the city.",
+      sourceCount: 1
+    },
+    "adath-israel-building-photo": {
+      id: "adath-israel-building-photo",
+      title: "Adath Israel Congregation, Toronto",
+      type: "Contemporary Photograph",
+      date: "2010",
+      people: [],
+      place: "adath-israel-congregation",
+      hasImage: true,
+      image: {
+        src: "/assets/history-adathisrael-building.jpg",
+        alt: "A red brick synagogue building on a Toronto street corner, with an inscribed stone lintel above the entrance and a utility pole in front.",
+        credit: "Photograph by SimonP, 2010, licensed CC BY SA 3.0, via Wikimedia Commons. The Adath Israel Congregation building, Toronto."
+      },
+      transcription: "The Adath Israel Congregation synagogue in Toronto, where Erwin Schild served as rabbi from 1947 to 1989. A later expansion of this building was named the Rabbi Erwin Schild Wing.",
+      sourceCount: 1
+    },
+    "erwin-schild-portrait-pending": {
+      id: "erwin-schild-portrait-pending",
+      title: "Portrait of Rabbi Erwin Schild (Photograph Pending)",
+      type: "Portrait Photograph",
+      date: "20th &amp; 21st century",
+      people: ["erwin-schild-rabbi"],
+      place: "toronto-canada",
+      hasImage: false,
+      pendingNote: "Photographs of Erwin Schild, as a young man and later in life, exist through Adath Israel Congregation, the Canadian Jewish News, the Toronto Holocaust Museum, and the USC Shoah Foundation, whose 2013 video testimony includes moving footage of him. Reuse rights for a still photograph have not yet been confirmed with any of these sources, so no image is stored here. His 2013 USC Shoah Foundation testimony can be watched directly at the source link below.",
+      transcription: "This record is reserved for a rights cleared portrait of Rabbi Erwin Schild once permission can be obtained from one of the institutional sources that hold his photograph.",
+      sourceCount: 3
+    },
+    "erwin-schild-germany-visits-pending": {
+      id: "erwin-schild-germany-visits-pending",
+      title: "Erwin Schild's Return Visits to Germany (Photographs Pending)",
+      type: "Event Photograph",
+      date: "Later 20th &amp; early 21st century",
+      people: ["erwin-schild-rabbi"],
+      place: "toronto-canada",
+      hasImage: false,
+      pendingNote: "News coverage of Erwin Schild's lecture tours, interfaith events, and honours in Germany exists through German institutional and Canadian Jewish press sources, but reuse rights for specific photographs have not yet been confirmed.",
+      transcription: "This record is reserved for photographs of Erwin Schild's later life work in Germany, including his lectures and Christian and Jewish dialogue events, once rights cleared images can be located.",
+      sourceCount: 1
+    },
+    "adath-israel-congregation-life-pending": {
+      id: "adath-israel-congregation-life-pending",
+      title: "Erwin Schild at Adath Israel (Photographs Pending)",
+      type: "Congregational Photograph",
+      date: "1947&ndash;1989",
+      people: ["erwin-schild-rabbi"],
+      place: "adath-israel-congregation",
+      hasImage: false,
+      pendingNote: "Adath Israel Congregation's own history pages describe decades of services, celebrations, and the dedication of the Rabbi Erwin Schild Wing, but reuse rights for specific photographs from the congregation have not yet been confirmed.",
+      transcription: "This record is reserved for photographs of Rabbi Schild at services or congregational events during his more than forty years at Adath Israel, once rights cleared images can be located or permission is granted.",
+      sourceCount: 1
+    },
+    "erwin-family-photo-pending": {
+      id: "erwin-family-photo-pending",
+      title: "The Schild Family, Cologne M&uuml;lheim (Photograph Pending)",
+      type: "Family Photograph",
+      date: "Before 1938",
+      people: ["hermann-schild-cologne", "hetti-schild-neugarten", "kurt-schild-brother", "margot-schild-sister"],
+      place: "cologne-muelheim-germany",
+      hasImage: false,
+      pendingNote: "No rights cleared photograph of Hermann, Hetti, Kurt, or Margot Schild has been located for this archive. This record is a placeholder rather than a guess at what such a photograph might show.",
+      transcription: "This record is reserved for a photograph of Erwin Schild's parents Hermann and Hetti, or his siblings Kurt and Margot, should one be located and rights cleared in the future.",
+      sourceCount: 0
     }
   },
 
@@ -1103,6 +1586,84 @@ window.HistoryData = {
       title: "Photograph of an old Grenache vine, Charles Melton Winery, Barossa Valley, Wikimedia Commons",
       note: "Photograph by Stephan Ridgway, licensed CC BY 2.0. Used as a contextual illustration only, not a photograph of the Moorooroo vines.",
       status: "confirmed"
+    },
+    "s-gedaechtnisbuch": {
+      id: "s-gedaechtnisbuch",
+      title: "Erwin Schild, Gedächtnisbuch (Cologne Memorial Project)",
+      note: "Biographical entry by Steffi Falk, 2005, gedaechtnisbuch.org/erwin-schild. Used as the primary source for Erwin Schild's early life, Dachau imprisonment dates, and escape route.",
+      status: "confirmed"
+    },
+    "s-adathisrael-ourstory": {
+      id: "s-adathisrael-ourstory",
+      title: "Our Story, Adath Israel Congregation",
+      note: "adathisrael.com/our-story.html. Used for Erwin Schild's tenure, the congregation's growth, and the Rabbi Erwin Schild Wing.",
+      status: "confirmed"
+    },
+    "s-gg-orderofcanada": {
+      id: "s-gg-orderofcanada",
+      title: "Governor General of Canada, Order of Canada Recipient Record — Erwin Schild",
+      note: "gg.ca/en/honours/recipients/146-2325. Official citation text and award/investiture dates.",
+      status: "confirmed"
+    },
+    "s-globeandmail-obituary": {
+      id: "s-globeandmail-obituary",
+      title: "Erwin Schild, Rabbi Who Survived Holocaust, Promoted Interfaith Dialogue, The Globe and Mail",
+      note: "theglobeandmail.com. Used for family details, the Riga deportation, internment specifics, and later life facts.",
+      status: "confirmed"
+    },
+    "s-cjn-profile": {
+      id: "s-cjn-profile",
+      title: "Rabbi Erwin Schild of Toronto's Adath Israel Synagogue Personally Experienced Nearly 104 Years of Jewish History, The Canadian Jewish News",
+      note: "thecjn.ca. Used for family details, congregational growth figures, and later life facts.",
+      status: "confirmed"
+    },
+    "s-wikipedia-erwin-schild": {
+      id: "s-wikipedia-erwin-schild",
+      title: "Erwin Schild, Wikipedia",
+      note: "Used only as a cross reference to confirm dates already established by primary sources above, not relied upon as a primary source.",
+      status: "confirmed"
+    },
+    "s-uscshoah-testimony": {
+      id: "s-uscshoah-testimony",
+      title: "Erwin Schild, USC Shoah Foundation Visual History Archive Testimony",
+      note: "vha.usc.edu/testimony/54296. Linked as a source for his own recorded testimony; not reproduced here.",
+      status: "confirmed"
+    },
+    "s-img-wurzburg-seminary": {
+      id: "s-img-wurzburg-seminary",
+      title: "Photograph of the Lehrerbildungsanstalt building, Kettengasse 6, Würzburg, Wikimedia Commons",
+      note: "Photograph by Nathan Bamberger, 1914, public domain.",
+      status: "confirmed"
+    },
+    "s-img-munich-synagogue-1938": {
+      id: "s-img-munich-synagogue-1938",
+      title: "Bundesarchiv photograph of the destroyed Ohel Jakob Synagogue, Munich, Wikimedia Commons",
+      note: "Bundesarchiv Bild 146-1970-041-46, licensed CC BY SA 3.0 DE. Used as general November 1938 context, not a photograph of Würzburg.",
+      status: "confirmed"
+    },
+    "s-img-dachau-memorial": {
+      id: "s-img-dachau-memorial",
+      title: "Photograph of the Dachau Memorial Site roll call yard, Wikimedia Commons",
+      note: "Photograph by Netha Hussain, 2021, licensed CC0.",
+      status: "confirmed"
+    },
+    "s-img-cologne-muelheim": {
+      id: "s-img-cologne-muelheim",
+      title: "Photograph of the Rhine and promenade, Cologne Mülheim, Wikimedia Commons",
+      note: "Photograph by A.Savin, 2012, licensed CC BY SA 3.0.",
+      status: "confirmed"
+    },
+    "s-img-wurzburg-town": {
+      id: "s-img-wurzburg-town",
+      title: "Panorama of Würzburg's old town and the Main river, Wikimedia Commons",
+      note: "Photograph by Robert von Oliva (naruciakk), 2022, licensed CC0.",
+      status: "confirmed"
+    },
+    "s-img-adathisrael-building": {
+      id: "s-img-adathisrael-building",
+      title: "Photograph of Adath Israel Congregation, Toronto, Wikimedia Commons",
+      note: "Photograph by SimonP, 2010, licensed CC BY SA 3.0.",
+      status: "confirmed"
     }
   },
 
@@ -1145,7 +1706,32 @@ window.HistoryData = {
     "barossa-vineyard-rows": ["s-img-barossa-vinerows"],
     "barossa-old-vines-context": ["s-img-barossa-oldvine"],
     "ann-jacobs-land-grant-diary": ["s-schildestate-moorooroo", "s-slsa-horrocks-diary"],
-    "ben-alma-schild-photo-pending": ["s-schildestate-ourstory"]
+    "ben-alma-schild-photo-pending": ["s-schildestate-ourstory"],
+    "birth-erwin-1920": ["s-gedaechtnisbuch", "s-globeandmail-obituary", "s-cjn-profile"],
+    "kristallnacht-1938": ["s-gedaechtnisbuch", "s-globeandmail-obituary"],
+    "dachau-imprisoned-1938": ["s-gedaechtnisbuch"],
+    "dachau-released-1938": ["s-gedaechtnisbuch"],
+    "escape-to-britain-1939": ["s-gedaechtnisbuch"],
+    "family-deported-riga-1941": ["s-globeandmail-obituary", "s-cjn-profile"],
+    "kurt-emigrates-1940": ["s-cjn-profile"],
+    "deported-canada-1940": ["s-gedaechtnisbuch", "s-globeandmail-obituary"],
+    "released-internment-1942": ["s-gedaechtnisbuch"],
+    "ordained-rabbi-erwin": ["s-gedaechtnisbuch", "s-globeandmail-obituary", "s-wikipedia-erwin-schild"],
+    "joins-adath-israel-1947": ["s-adathisrael-ourstory", "s-globeandmail-obituary", "s-wikipedia-erwin-schild"],
+    "retires-adath-israel-1989": ["s-adathisrael-ourstory", "s-wikipedia-erwin-schild"],
+    "order-of-canada-2001": ["s-gg-orderofcanada", "s-wikipedia-erwin-schild"],
+    "death-erwin-2024": ["s-cjn-profile", "s-globeandmail-obituary", "s-wikipedia-erwin-schild"],
+    "dachau-remembrance-book-entry": ["s-gedaechtnisbuch"],
+    "order-of-canada-citation": ["s-gg-orderofcanada"],
+    "wurzburg-seminary-photo": ["s-img-wurzburg-seminary"],
+    "munich-synagogue-1938-photo": ["s-img-munich-synagogue-1938"],
+    "dachau-memorial-photo": ["s-img-dachau-memorial"],
+    "cologne-muelheim-photo": ["s-img-cologne-muelheim"],
+    "wurzburg-town-photo": ["s-img-wurzburg-town"],
+    "adath-israel-building-photo": ["s-img-adathisrael-building"],
+    "erwin-schild-portrait-pending": ["s-adathisrael-ourstory", "s-cjn-profile", "s-uscshoah-testimony"],
+    "erwin-schild-germany-visits-pending": ["s-gg-orderofcanada"],
+    "adath-israel-congregation-life-pending": ["s-adathisrael-ourstory"]
   },
 
   mysteries: [
@@ -1180,6 +1766,14 @@ window.HistoryData = {
       evidence: "The history of the Schild family in the Barossa Valley is well documented beginning with Ben and Alma Schild in 1952.",
       unknown: "A direct genealogical connection between this Australian branch and the Schild family represented elsewhere on this site has not yet been established.",
       people: ["ben-schild-vigneron", "alma-schild-vigneron", "ed-schild-vigneron", "michael-schild-vigneron", "angus-schild-vigneron"]
+    },
+    {
+      id: "erwin-schild-lineage",
+      question: "Is Rabbi Erwin Schild connected to our direct Schild family line?",
+      status: "researching",
+      evidence: "Erwin Schild&rsquo;s life and family background are extensively documented across multiple independent sources, including a German memorial project, Adath Israel Congregation, the Governor General of Canada, and Canadian press coverage.",
+      unknown: "A direct genealogical connection between his German Schild family and the family line represented elsewhere on this site has not yet been established.",
+      people: ["erwin-schild-rabbi", "hermann-schild-cologne", "hetti-schild-neugarten", "kurt-schild-brother", "margot-schild-sister"]
     }
   ]
 };
