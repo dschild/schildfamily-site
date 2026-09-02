@@ -247,7 +247,7 @@
       '<p class="h-viewer-image-credit">' + rec.image.credit + "</p>" :
       '<div class="h-viewer-noimage">' +
       '<svg viewBox="0 0 40 40" fill="none"><rect x="5" y="4" width="30" height="32" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M11 13h18M11 20h18M11 27h11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>' +
-      "<p>No digital scan on file yet &mdash; the details below are drawn from family research notes.</p>" +
+      "<p>" + (rec.pendingNote || "No digital scan on file yet &mdash; the details below are drawn from family research notes.") + "</p>" +
       "</div>";
 
     viewerEl.querySelector(".h-viewer-inner").innerHTML =

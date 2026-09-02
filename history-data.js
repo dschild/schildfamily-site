@@ -109,6 +109,71 @@ window.HistoryData = {
       places: ["grenchen-switzerland"],
       events: ["urs-schild-death-1888", "theodor-schild-leads-1899", "eterna-trademark-1905", "eta-split-1932"],
       documents: []
+    },
+    "ben-schild-vigneron": {
+      id: "ben-schild-vigneron",
+      name: "Ben Schild",
+      years: "Settled the Barossa in 1952; died 1956",
+      birthPlace: "Australia",
+      role: "Vigneron &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "With his wife Alma, purchased and settled a property on historic Narrow Road near Rowland Flat in the Barossa Valley in 1952, beginning the family&rsquo;s documented vineyard story there. Ben died unexpectedly in 1956. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["schildestatebarossa"],
+      places: ["narrow-road-vineyard", "rowland-flat-australia"],
+      events: ["narrow-road-settled-1952", "ben-schild-dies-1956"],
+      documents: ["ben-alma-schild-photo-pending"]
+    },
+    "alma-schild-vigneron": {
+      id: "alma-schild-vigneron",
+      name: "Alma Schild",
+      years: "Settled the Barossa in 1952",
+      birthPlace: "Australia",
+      role: "Vigneron &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "With her husband Ben, purchased and settled a property on historic Narrow Road near Rowland Flat in the Barossa Valley in 1952. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["schildestatebarossa"],
+      places: ["narrow-road-vineyard", "rowland-flat-australia"],
+      events: ["narrow-road-settled-1952"],
+      documents: ["ben-alma-schild-photo-pending"]
+    },
+    "ed-schild-vigneron": {
+      id: "ed-schild-vigneron",
+      name: "Ed Schild",
+      years: "Took over the family property in 1956, aged 16",
+      birthPlace: "Australia",
+      role: "Vigneron &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "Son of Ben and Alma Schild. After his father died unexpectedly in 1956, Ed took over the family property at sixteen and, over the following decades, led the expansion of the family&rsquo;s vineyard holdings across the Southern Barossa, including the purchase of Angus Brae, named for his grandson Angus. Ed stepped back from leading the business around 2022, when his son Michael took on that role. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["schildestatebarossa"],
+      places: ["angus-brae-vineyard", "rowland-flat-australia"],
+      events: ["ben-schild-dies-1956", "angus-brae-purchased-2001", "winery-sale-2022"],
+      documents: []
+    },
+    "michael-schild-vigneron": {
+      id: "michael-schild-vigneron",
+      name: "Michael Schild",
+      years: "Built a workshop nearby in 1999; took over the business around 2022",
+      birthPlace: "Australia",
+      role: "Vigneron &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "Son of Ed Schild. In 1999 Michael built a new workshop near the family&rsquo;s Chenin Blanc vineyard, which became known afterward simply as Workshop. Around 2022, as the family transitioned to focus on grapegrowing, Michael took over leading the business from his father. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["schildestatebarossa"],
+      places: ["workshop-vineyard", "rowland-flat-australia"],
+      events: ["workshop-named-1999", "winery-sale-2022"],
+      documents: []
+    },
+    "angus-schild-vigneron": {
+      id: "angus-schild-vigneron",
+      name: "Angus Schild",
+      years: "b. 20th century (exact date not on file)",
+      birthPlace: "Australia",
+      role: "Namesake of Angus Brae &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "A grandson of Ed Schild. The Angus Brae vineyard, purchased by the family in December 2001, was named for him, combining his name with the Scottish word &ldquo;brae,&rdquo; meaning a steep hillside. Presented here as wider Schild surname history, not a proven branch of our direct family line.",
+      stories: ["schildestatebarossa"],
+      places: ["angus-brae-vineyard"],
+      events: ["angus-brae-purchased-2001"],
+      documents: []
     }
   },
 
@@ -170,6 +235,94 @@ window.HistoryData = {
       people: ["urs-schild-watchmaker", "adolf-schild-watchmaker", "max-schild-watchmaker", "theodor-schild-watchmaker"],
       stories: ["schildsswisstime"],
       events: ["eterna-founding-1856", "complete-watches-1878", "urs-schild-death-1888", "adolf-schild-founds-as-1896", "theodor-schild-leads-1899", "eterna-trademark-1905", "eta-split-1932"]
+    },
+    "barossa-valley-australia": {
+      id: "barossa-valley-australia",
+      name: "Barossa Valley, South Australia",
+      region: "South Australia",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "One of Australia&rsquo;s best known wine regions, settled by German and English immigrants from the late 1830s onward. The Schild family have grown grapes here since 1952, and the surviving Moorooroo vines nearby date to 1847, among the oldest producing vines in the world. This entry describes the wider region, and is not evidence of a direct family connection.",
+      people: ["ben-schild-vigneron", "alma-schild-vigneron", "ed-schild-vigneron", "michael-schild-vigneron", "angus-schild-vigneron"],
+      stories: ["schildestatebarossa"],
+      events: ["ann-jacobs-arrives-1839", "moorooroo-vines-planted-1847", "kleemann-planted-1916", "narrow-road-settled-1952", "ben-schild-dies-1956", "workshop-vineyard-purchased-1993", "workshop-named-1999", "angus-brae-purchased-2001", "winery-sale-2022"]
+    },
+    "rowland-flat-australia": {
+      id: "rowland-flat-australia",
+      name: "Rowland Flat, South Australia",
+      region: "Barossa Valley, South Australia",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A small township in the Southern Barossa Valley. The original Schild family homestead, settled by Ben and Alma Schild in 1952, sits on historic Narrow Road at Rowland Flat, and several of the family&rsquo;s vineyards, including Narrow Road, Three Springs, and Kleemann, lie on the hills around the town. This entry describes the wider township, and is not evidence of a direct family connection.",
+      people: ["ben-schild-vigneron", "alma-schild-vigneron", "ed-schild-vigneron", "michael-schild-vigneron"],
+      stories: ["schildestatebarossa"],
+      events: ["kleemann-planted-1916", "narrow-road-settled-1952", "ben-schild-dies-1956"]
+    },
+    "narrow-road-vineyard": {
+      id: "narrow-road-vineyard",
+      name: "Narrow Road",
+      region: "Rowland Flat, Barossa Valley",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A vineyard site on the hills behind Rowland Flat, adjacent to the original Schild family homestead purchased and settled by Ben and Alma Schild in 1952. This entry describes a vineyard site associated with the wider Schild story, and is not evidence of a direct family connection.",
+      people: ["ben-schild-vigneron", "alma-schild-vigneron"],
+      stories: ["schildestatebarossa"],
+      events: ["narrow-road-settled-1952"]
+    },
+    "three-springs-vineyard": {
+      id: "three-springs-vineyard",
+      name: "Three Springs",
+      region: "Rowland Flat, Barossa Valley",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "The vineyard site where the original Schild family homestead is located, on historic Narrow Road at Rowland Flat, sitting about 380 metres above sea level. Its higher, cooler position traditionally yields less fruit than vineyards on the valley floor. This entry describes a vineyard site associated with the wider Schild story, and is not evidence of a direct family connection.",
+      people: ["ben-schild-vigneron", "alma-schild-vigneron"],
+      stories: ["schildestatebarossa"],
+      events: ["narrow-road-settled-1952"]
+    },
+    "angus-brae-vineyard": {
+      id: "angus-brae-vineyard",
+      name: "Angus Brae",
+      region: "Near Lyndoch, Barossa Valley",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A vineyard about four kilometres north of the Lyndoch township, purchased by the Schild family in December 2001. It was named for Ed Schild&rsquo;s grandson Angus, combined with the Scottish word &ldquo;brae,&rdquo; meaning a steep hillside. This entry describes a vineyard site associated with the wider Schild story, and is not evidence of a direct family connection.",
+      people: ["ed-schild-vigneron", "angus-schild-vigneron"],
+      stories: ["schildestatebarossa"],
+      events: ["angus-brae-purchased-2001"]
+    },
+    "workshop-vineyard": {
+      id: "workshop-vineyard",
+      name: "Workshop",
+      region: "Southern Barossa Valley",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A vineyard purchased by the family in 1993, originally known as the Chenin Blanc vineyard. After Michael Schild built a new workshop nearby in 1999, it became known simply as Workshop. This entry describes a vineyard site associated with the wider Schild story, and is not evidence of a direct family connection.",
+      people: ["michael-schild-vigneron"],
+      stories: ["schildestatebarossa"],
+      events: ["workshop-vineyard-purchased-1993", "workshop-named-1999"]
+    },
+    "kleemann-vineyard": {
+      id: "kleemann-vineyard",
+      name: "Kleemann",
+      region: "Eastern hills above Rowland Flat, Barossa Valley",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A vineyard high on the eastern hills overlooking Rowland Flat, planted in 1916. Its bush vines grow untrellised, exposed to the elements, and are still hand picked, much as they have been for more than a century. This entry describes a vineyard site associated with the wider Schild story, and is not evidence of a direct family connection.",
+      people: [],
+      stories: ["schildestatebarossa"],
+      events: ["kleemann-planted-1916"]
+    },
+    "moorooroo-vineyard": {
+      id: "moorooroo-vineyard",
+      name: "Moorooroo",
+      region: "Between Jacob&rsquo;s Creek and the North Para River, Barossa Valley",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A vineyard between Jacob&rsquo;s Creek and the North Para River, taking its name from an Indigenous word meaning &ldquo;meeting of two waters.&rdquo; It contains the last four remaining rows of Shiraz planted in 1847 by Ann Jacobs, later Ann Horrocks, eleven years after the founding of South Australia. The Schild family did not plant these vines; they are their current custodians. This entry describes a vineyard site associated with the wider Schild story, and is not evidence of a direct family connection.",
+      people: [],
+      stories: ["schildestatebarossa"],
+      events: ["ann-jacobs-arrives-1839", "moorooroo-vines-planted-1847"]
     }
   },
 
@@ -209,6 +362,19 @@ window.HistoryData = {
       places: ["grenchen-switzerland"],
       events: ["eterna-founding-1856", "complete-watches-1878", "urs-schild-death-1888", "adolf-schild-founds-as-1896", "theodor-schild-leads-1899", "eterna-trademark-1905", "eta-split-1932"],
       documents: ["eterna-founding-record", "grenchen-1870s-view", "eterna-pocketwatch-1930", "eta-factory-grenchen", "eta-movement-2824"]
+    },
+    "schildestatebarossa": {
+      id: "schildestatebarossa",
+      title: "From One Vineyard to the Barossa",
+      subtitle: "The Schild Family and Generations of Australian Wine",
+      dateRange: "1839&ndash;Present",
+      location: "Barossa Valley, South Australia",
+      wideStory: true,
+      teaser: "In 1952 Ben and Alma Schild settled one vineyard on Narrow Road. Their family now tends land across the Southern Barossa, including vines planted more than a century before they arrived.",
+      people: ["ben-schild-vigneron", "alma-schild-vigneron", "ed-schild-vigneron", "michael-schild-vigneron", "angus-schild-vigneron"],
+      places: ["barossa-valley-australia", "rowland-flat-australia", "narrow-road-vineyard", "three-springs-vineyard", "angus-brae-vineyard", "workshop-vineyard", "kleemann-vineyard", "moorooroo-vineyard"],
+      events: ["ann-jacobs-arrives-1839", "moorooroo-vines-planted-1847", "kleemann-planted-1916", "narrow-road-settled-1952", "ben-schild-dies-1956", "workshop-vineyard-purchased-1993", "workshop-named-1999", "angus-brae-purchased-2001", "winery-sale-2022"],
+      documents: ["barossa-valley-aerial-view", "barossa-aerial-1987", "barossa-grape-delivery-1945", "barossa-vintage-1955", "barossa-grape-picking-historic", "rowland-flat-historic-view", "barossa-vineyard-rows", "barossa-old-vines-context", "ann-jacobs-land-grant-diary", "ben-alma-schild-photo-pending"]
     }
   },
 
@@ -360,6 +526,108 @@ window.HistoryData = {
       places: ["grenchen-switzerland"],
       story: "schildsswisstime",
       sourceCount: 2
+    },
+    {
+      id: "ann-jacobs-arrives-1839",
+      year: 1839,
+      date: "1839",
+      title: "Ann Jacobs Arrives in South Australia",
+      description: "Ann Jacobs, later Ann Horrocks, arrived in South Australia in 1839 at about twenty one years old. An original land grant records her purchase of 500 acres for &pound;500, the property that would become Moorooroo.",
+      people: [],
+      places: ["moorooroo-vineyard", "barossa-valley-australia"],
+      story: "schildestatebarossa",
+      document: "ann-jacobs-land-grant-diary",
+      sourceCount: 1
+    },
+    {
+      id: "moorooroo-vines-planted-1847",
+      year: 1847,
+      date: "1847",
+      title: "The Moorooroo Shiraz Vines Are Planted",
+      description: "Ann Jacobs planted Shiraz vines at Moorooroo in 1847, eleven years after the founding of South Australia, along with oats, barley, fruit trees, and a large dairy. Her diary, held by the State Library of South Australia, describes this work. Four rows of that original planting still survive today, among some of the oldest producing vines in the world. The Schild family did not plant these vines; they are their current custodians.",
+      people: [],
+      places: ["moorooroo-vineyard"],
+      story: "schildestatebarossa",
+      document: "ann-jacobs-land-grant-diary",
+      sourceCount: 1
+    },
+    {
+      id: "kleemann-planted-1916",
+      year: 1916,
+      date: "1916",
+      title: "The Kleemann Vineyard Is Planted",
+      description: "The Kleemann vineyard, high on the eastern hills above Rowland Flat, is planted in 1916. Its bush vines are still grown untrellised and hand picked today.",
+      people: [],
+      places: ["kleemann-vineyard"],
+      story: "schildestatebarossa",
+      sourceCount: 1
+    },
+    {
+      id: "narrow-road-settled-1952",
+      year: 1952,
+      date: "1952",
+      title: "Ben and Alma Schild Settle Narrow Road",
+      description: "Ben and Alma Schild purchase and settle a property along historic Narrow Road near Rowland Flat, beginning the family&rsquo;s documented vineyard story in the Barossa Valley. One vineyard would eventually grow into more than eleven.",
+      people: ["ben-schild-vigneron", "alma-schild-vigneron"],
+      places: ["narrow-road-vineyard", "three-springs-vineyard", "rowland-flat-australia"],
+      story: "schildestatebarossa",
+      document: "ben-alma-schild-photo-pending",
+      sourceCount: 1
+    },
+    {
+      id: "ben-schild-dies-1956",
+      year: 1956,
+      date: "1956",
+      title: "Ben Schild Dies; Ed Schild Takes Over at Sixteen",
+      description: "Ben Schild dies unexpectedly in 1956. His son Ed, the youngest of eight children and the only son still living at home, takes over the family property at sixteen years old and goes on to lead its expansion over the following decades.",
+      people: ["ben-schild-vigneron", "ed-schild-vigneron"],
+      places: ["rowland-flat-australia"],
+      story: "schildestatebarossa",
+      sourceCount: 1
+    },
+    {
+      id: "workshop-vineyard-purchased-1993",
+      year: 1993,
+      date: "1993",
+      title: "The Family Purchases the Chenin Blanc Vineyard",
+      description: "The family purchases a vineyard later known as Workshop, at the time called the Chenin Blanc vineyard.",
+      people: [],
+      places: ["workshop-vineyard"],
+      story: "schildestatebarossa",
+      sourceCount: 1
+    },
+    {
+      id: "workshop-named-1999",
+      year: 1999,
+      date: "1999",
+      title: "Michael Schild Builds a Workshop Nearby",
+      description: "In 1999 Michael Schild builds a new workshop just down the road from the Chenin Blanc vineyard, which becomes known afterward simply as Workshop.",
+      people: ["michael-schild-vigneron"],
+      places: ["workshop-vineyard"],
+      story: "schildestatebarossa",
+      sourceCount: 1
+    },
+    {
+      id: "angus-brae-purchased-2001",
+      year: 2001,
+      date: "December 2001",
+      title: "Angus Brae Is Purchased",
+      description: "The family purchases a vineyard north of Lyndoch in December 2001, naming it Angus Brae for Ed Schild&rsquo;s grandson Angus and the Scottish word for a steep hillside.",
+      people: ["ed-schild-vigneron", "angus-schild-vigneron"],
+      places: ["angus-brae-vineyard"],
+      story: "schildestatebarossa",
+      sourceCount: 1
+    },
+    {
+      id: "winery-sale-2022",
+      year: 2022,
+      date: "Announced 2022",
+      title: "The Family Returns Its Focus to the Vineyards",
+      description: "The family announces plans to sell the Schild Estate winery itself. The winery building is later purchased by Atlas Wines, while the Schild Estate wine brand and inventory move to CW Wines. The Schild family keeps its vineyards and continues to grow the fruit used in Schild Estate wines. Around the same time, Ed Schild steps back from leading the business and his son Michael takes on that role.",
+      people: ["ed-schild-vigneron", "michael-schild-vigneron"],
+      places: ["rowland-flat-australia", "barossa-valley-australia"],
+      story: "schildestatebarossa",
+      sourceCount: 2
     }
   ],
 
@@ -482,6 +750,158 @@ window.HistoryData = {
       },
       transcription: "A close view of an ETA 2824 automatic movement, one of the most widely used mechanical movements in Swiss watchmaking. Movements like this one are made by ETA, the Grenchen company that grew out of the business Urs Schild began in 1856.",
       sourceCount: 1
+    },
+    "barossa-valley-aerial-view": {
+      id: "barossa-valley-aerial-view",
+      title: "Aerial View of the Barossa Valley",
+      type: "Landscape Photograph",
+      date: "2009 (a modern photograph)",
+      people: [],
+      place: "barossa-valley-australia",
+      hasImage: true,
+      image: {
+        src: "/assets/history-barossa-aerial.jpg",
+        alt: "An aerial view looking down over the Barossa Valley, showing a patchwork of vineyard rows and farmland stretching toward distant hills, with a road running through the middle of the scene.",
+        credit: "Photograph by Tam, 2009, licensed CC BY SA 2.0, via Wikimedia Commons."
+      },
+      transcription: "A wide view over the Barossa Valley, showing the patchwork of vineyard rows that has defined the region since the nineteenth century. This is a general landscape photograph, not a picture of a specific Schild family vineyard.",
+      sourceCount: 1
+    },
+    "barossa-aerial-1987": {
+      id: "barossa-aerial-1987",
+      title: "Vineyards in the Barossa Valley, 1987",
+      type: "Historical Photograph",
+      date: "1987",
+      people: [],
+      place: "barossa-valley-australia",
+      hasImage: true,
+      image: {
+        src: "/assets/history-barossa-1987.jpg",
+        alt: "A 1987 aerial photograph of the Barossa Valley, showing a township surrounded by vineyard rows and farmland, with hills in the distance.",
+        credit: "Photograph by Phillip Capper, 1987, licensed CC BY 2.0, via Wikimedia Commons."
+      },
+      transcription: "An aerial photograph of the Barossa Valley taken in 1987, showing a township and the surrounding vineyards and farmland. This is a general regional photograph, not a picture of a specific Schild family vineyard.",
+      sourceCount: 1
+    },
+    "barossa-grape-delivery-1945": {
+      id: "barossa-grape-delivery-1945",
+      title: "Delivering Grapes to a Barossa Winery, Circa 1945",
+      type: "Historical Photograph",
+      date: "circa 1945",
+      people: [],
+      place: "barossa-valley-australia",
+      hasImage: true,
+      image: {
+        src: "/assets/history-barossa-delivery1945.jpg",
+        alt: "A black and white photograph of horse drawn wagons and a motor truck, all loaded with grapes, queued outside a winery, probably in the Barossa Valley, circa 1945.",
+        credit: "State Government Photographer, circa 1945, The History Trust of South Australia. CC0 1.0 Public Domain, via Wikimedia Commons."
+      },
+      transcription: "Horse drawn wagons and a motor truck, all loaded with grapes, queued outside a winery believed to be in the Barossa Valley, around 1945. This is a general regional photograph and does not depict the Schild family or a specific Schild vineyard.",
+      sourceCount: 1
+    },
+    "barossa-vintage-1955": {
+      id: "barossa-vintage-1955",
+      title: "Grape Vintage in the Barossa Valley, Circa 1955",
+      type: "Historical Photograph",
+      date: "circa 1955",
+      people: [],
+      place: "barossa-valley-australia",
+      hasImage: true,
+      image: {
+        src: "/assets/history-barossa-vintage1955.jpg",
+        alt: "A black and white photograph of six women in overalls and headscarves carrying buckets of freshly picked grapes along a row of vines in the Barossa Valley, circa 1955.",
+        credit: "State Government Photographer, circa 1955, The History Trust of South Australia. CC0 1.0 Public Domain, via Wikimedia Commons."
+      },
+      transcription: "Women carrying buckets of freshly picked grapes along a vineyard row in the Barossa Valley, around 1955. This is a general regional photograph and does not depict the Schild family or a specific Schild vineyard.",
+      sourceCount: 1
+    },
+    "barossa-grape-picking-historic": {
+      id: "barossa-grape-picking-historic",
+      title: "Grape Picking in the Barossa Valley",
+      type: "Historical Photograph",
+      date: "early to mid twentieth century",
+      people: [],
+      place: "barossa-valley-australia",
+      hasImage: true,
+      image: {
+        src: "/assets/history-barossa-picking.jpg",
+        alt: "A black and white photograph of workers in wide brimmed hats hand picking grapes into buckets beside a tractor and trailer heaped with grapes, in a Barossa Valley vineyard.",
+        credit: "State Government Photographer, The History Trust of South Australia. CC0 1.0 Public Domain, via Wikimedia Commons."
+      },
+      transcription: "Workers hand picking grapes beside a tractor and trailer in a Barossa Valley vineyard. This is a general regional photograph and does not depict the Schild family or a specific Schild vineyard.",
+      sourceCount: 1
+    },
+    "rowland-flat-historic-view": {
+      id: "rowland-flat-historic-view",
+      title: "Rowland Flat, Historical View",
+      type: "Historical Photograph",
+      date: "20th century",
+      people: [],
+      place: "rowland-flat-australia",
+      hasImage: true,
+      image: {
+        src: "/assets/history-rowlandflat-historic.jpg",
+        alt: "A black and white photograph of Rowland Flat, showing a winery building and vineyard rows in the foreground with hills in the distance.",
+        credit: "State Government Photographer, The History Trust of South Australia. CC0 1.0 Public Domain, via Wikimedia Commons."
+      },
+      transcription: "A historical view of Rowland Flat, showing a winery building and vineyard rows with the surrounding hills behind. This is a general township photograph, not a picture of a specific Schild family vineyard or homestead.",
+      sourceCount: 1
+    },
+    "barossa-vineyard-rows": {
+      id: "barossa-vineyard-rows",
+      title: "Vineyard Rows in the Barossa Valley",
+      type: "Landscape Photograph",
+      date: "2009 (a modern photograph)",
+      people: [],
+      place: "barossa-valley-australia",
+      hasImage: true,
+      image: {
+        src: "/assets/history-barossa-vinerows.jpg",
+        alt: "A row of trellised grapevines in a Barossa Valley vineyard, with wooden posts and wire trellising, under a partly cloudy sky.",
+        credit: "Photograph by Tam, 2009, licensed CC BY SA 2.0, via Wikimedia Commons."
+      },
+      transcription: "Trellised vine rows in a Barossa Valley vineyard, representative of vineyard work across the region today. This is a general photograph, not a picture of a specific Schild family vineyard.",
+      sourceCount: 1
+    },
+    "barossa-old-vines-context": {
+      id: "barossa-old-vines-context",
+      title: "An Old Grenache Vine, Barossa Valley (Contextual Photograph)",
+      type: "Landscape Photograph",
+      date: "2010",
+      people: [],
+      place: "barossa-valley-australia",
+      hasImage: true,
+      image: {
+        src: "/assets/history-barossa-oldvine.jpg",
+        alt: "A gnarled, weathered old grapevine trunk with bare wood, standing at the edge of a green vineyard row in the Barossa Valley.",
+        credit: "Photograph by Stephan Ridgway, 2010, licensed CC BY 2.0, via Wikimedia Commons. Photographed at Charles Melton Winery, Barossa Valley."
+      },
+      transcription: "This photograph shows the gnarled trunk of an old Grenache vine at Charles Melton Winery, elsewhere in the Barossa Valley. It is used here only to illustrate what a working century old vine looks like. It is not a photograph of the Moorooroo Shiraz vines planted in 1847, and no rights cleared photograph of those specific vines has yet been located for this archive.",
+      sourceCount: 1
+    },
+    "ann-jacobs-land-grant-diary": {
+      id: "ann-jacobs-land-grant-diary",
+      title: "Land Grant and Diary of Ann Jacobs (Later Ann Horrocks)",
+      type: "Land Record &amp; Diary",
+      date: "1839&ndash;1847",
+      people: [],
+      place: "moorooroo-vineyard",
+      hasImage: false,
+      pendingNote: "This record describes an original land grant and a diary held by the State Library of South Australia, catalogued as PRG 966. This archive has not yet obtained a rights cleared digital copy of either document, so no scan is shown here.",
+      transcription: "An original land grant records Ann Jacobs&rsquo; purchase of 500 acres for &pound;500 in South Australia. Her diary, held by the State Library of South Australia, discusses establishing vines, oats, barley, and fruit trees, along with a large dairy whose building can still be seen today. After her marriage, ownership was required to pass to her brother William Jacob, who has often been credited historically with her pioneering work.",
+      sourceCount: 2
+    },
+    "ben-alma-schild-photo-pending": {
+      id: "ben-alma-schild-photo-pending",
+      title: "Ben and Alma Schild, Narrow Road (Photograph Pending)",
+      type: "Family Photograph",
+      date: "1952 (approximate)",
+      people: ["ben-schild-vigneron", "alma-schild-vigneron"],
+      place: "narrow-road-vineyard",
+      hasImage: false,
+      pendingNote: "The official Schild Estate website features historic family and property photography that would suit this record well, but reuse permission for that material has not yet been confirmed. This record is a placeholder until a rights cleared photograph, or permission from the family, can be obtained.",
+      transcription: "This record is reserved for a photograph of Ben and Alma Schild, or of the original homestead they settled on Narrow Road in 1952, once a rights cleared image can be located or permission is granted.",
+      sourceCount: 0
     }
   },
 
@@ -599,6 +1019,90 @@ window.HistoryData = {
       title: "&ldquo;SCHILD, About Us,&rdquo; Schild Watches, via YouTube",
       note: "A contemporary Swiss watch brand, trading as Schild 1896, that describes itself as reviving the historical Schild name in watchmaking from the 1890s onward. This is the brand&rsquo;s own account of its history, not independently verified by this archive, and it does not establish a connection to the Eterna and ETA history told above.",
       status: "researching"
+    },
+    "s-schildestate-ourstory": {
+      id: "s-schildestate-ourstory",
+      title: "Schild Estate, &ldquo;Our Story&rdquo;",
+      note: "Official Schild Estate account confirming the family has grown grapes in the Barossa Valley since 1952, growing from one vineyard to more than 134 hectares across 11 sites.",
+      status: "confirmed"
+    },
+    "s-schildestate-vineyards": {
+      id: "s-schildestate-vineyards",
+      title: "Schild Estate, vineyard descriptions (Narrow Road, Three Springs, Angus Brae, Workshop, Kleemann, Moorooroo)",
+      note: "Official Schild Estate descriptions of each vineyard site, including location, planting and purchase dates, and naming history.",
+      status: "confirmed"
+    },
+    "s-schildestate-moorooroo": {
+      id: "s-schildestate-moorooroo",
+      title: "Schild Estate, &ldquo;Moorooroo Launch&rdquo;",
+      note: "Official Schild Estate account of Ann Jacobs, later Ann Horrocks, her 1839 arrival, the original land grant, her diary held by the State Library of South Australia, and the transfer of ownership to her brother William Jacob after her marriage.",
+      status: "confirmed"
+    },
+    "s-slsa-horrocks-diary": {
+      id: "s-slsa-horrocks-diary",
+      title: "State Library of South Australia, Anne Horrocks diary transcript (PRG 966)",
+      note: "Institutional archive holding of the diary discussed in Schild Estate&rsquo;s account of Ann Jacobs. This archive has not yet obtained a rights cleared digital copy.",
+      status: "confirmed"
+    },
+    "s-newcastleherald-schild": {
+      id: "s-newcastleherald-schild",
+      title: "Newcastle Herald, &ldquo;Taste, Artistry in the Genes&rdquo;",
+      note: "Newspaper feature on the Schild family across three generations, including Ben and Alma Schild&rsquo;s 1952 arrival, Ben&rsquo;s death in 1956, Ed Schild taking over the property at sixteen, and Ed&rsquo;s son Michael as the third generation chief vigneron.",
+      status: "confirmed"
+    },
+    "s-winetitles-schild-sale": {
+      id: "s-winetitles-schild-sale",
+      title: "Winetitles, &ldquo;Schild Estate Winery Sold to Atlas Wines&rdquo;",
+      note: "Trade press coverage of the 2022 to 2023 sale of the Schild Estate winery and brand, the family&rsquo;s continued focus on grapegrowing, and the leadership transition from Ed Schild to his son Michael.",
+      status: "confirmed"
+    },
+    "s-img-barossa-aerial": {
+      id: "s-img-barossa-aerial",
+      title: "Aerial photograph of the Barossa Valley, Wikimedia Commons",
+      note: "Own work photograph by Tam, licensed CC BY SA 2.0.",
+      status: "confirmed"
+    },
+    "s-img-barossa-1987": {
+      id: "s-img-barossa-1987",
+      title: "Photograph of the Barossa Valley, 1987, Wikimedia Commons",
+      note: "Photograph by Phillip Capper, licensed CC BY 2.0.",
+      status: "confirmed"
+    },
+    "s-img-barossa-delivery1945": {
+      id: "s-img-barossa-delivery1945",
+      title: "Photograph of grape delivery, circa 1945, Wikimedia Commons",
+      note: "State Government Photographer, The History Trust of South Australia. CC0 1.0 Public Domain.",
+      status: "confirmed"
+    },
+    "s-img-barossa-vintage1955": {
+      id: "s-img-barossa-vintage1955",
+      title: "Photograph of grape vintage, circa 1955, Wikimedia Commons",
+      note: "State Government Photographer, The History Trust of South Australia. CC0 1.0 Public Domain.",
+      status: "confirmed"
+    },
+    "s-img-barossa-picking": {
+      id: "s-img-barossa-picking",
+      title: "Photograph of grape picking, Barossa Valley, Wikimedia Commons",
+      note: "State Government Photographer, The History Trust of South Australia. CC0 1.0 Public Domain.",
+      status: "confirmed"
+    },
+    "s-img-rowlandflat-historic": {
+      id: "s-img-rowlandflat-historic",
+      title: "Historical photograph of Rowland Flat, Wikimedia Commons",
+      note: "State Government Photographer, The History Trust of South Australia. CC0 1.0 Public Domain.",
+      status: "confirmed"
+    },
+    "s-img-barossa-vinerows": {
+      id: "s-img-barossa-vinerows",
+      title: "Photograph of vineyard rows, Barossa Valley, Wikimedia Commons",
+      note: "Own work photograph by Tam, licensed CC BY SA 2.0.",
+      status: "confirmed"
+    },
+    "s-img-barossa-oldvine": {
+      id: "s-img-barossa-oldvine",
+      title: "Photograph of an old Grenache vine, Charles Melton Winery, Barossa Valley, Wikimedia Commons",
+      note: "Photograph by Stephan Ridgway, licensed CC BY 2.0. Used as a contextual illustration only, not a photograph of the Moorooroo vines.",
+      status: "confirmed"
     }
   },
 
@@ -622,7 +1126,26 @@ window.HistoryData = {
     "grenchen-1870s-view": ["s-img-grenchen-1870s"],
     "eterna-pocketwatch-1930": ["s-img-eterna-pocketwatch"],
     "eta-factory-grenchen": ["s-img-eta-factory"],
-    "eta-movement-2824": ["s-img-eta-movement"]
+    "eta-movement-2824": ["s-img-eta-movement"],
+    "ann-jacobs-arrives-1839": ["s-schildestate-moorooroo", "s-slsa-horrocks-diary"],
+    "moorooroo-vines-planted-1847": ["s-schildestate-moorooroo", "s-slsa-horrocks-diary"],
+    "kleemann-planted-1916": ["s-schildestate-vineyards"],
+    "narrow-road-settled-1952": ["s-schildestate-ourstory", "s-schildestate-vineyards", "s-newcastleherald-schild"],
+    "ben-schild-dies-1956": ["s-newcastleherald-schild"],
+    "workshop-vineyard-purchased-1993": ["s-schildestate-vineyards"],
+    "workshop-named-1999": ["s-schildestate-vineyards"],
+    "angus-brae-purchased-2001": ["s-schildestate-vineyards"],
+    "winery-sale-2022": ["s-winetitles-schild-sale", "s-newcastleherald-schild"],
+    "barossa-valley-aerial-view": ["s-img-barossa-aerial"],
+    "barossa-aerial-1987": ["s-img-barossa-1987"],
+    "barossa-grape-delivery-1945": ["s-img-barossa-delivery1945"],
+    "barossa-vintage-1955": ["s-img-barossa-vintage1955"],
+    "barossa-grape-picking-historic": ["s-img-barossa-picking"],
+    "rowland-flat-historic-view": ["s-img-rowlandflat-historic"],
+    "barossa-vineyard-rows": ["s-img-barossa-vinerows"],
+    "barossa-old-vines-context": ["s-img-barossa-oldvine"],
+    "ann-jacobs-land-grant-diary": ["s-schildestate-moorooroo", "s-slsa-horrocks-diary"],
+    "ben-alma-schild-photo-pending": ["s-schildestate-ourstory"]
   },
 
   mysteries: [
@@ -649,6 +1172,14 @@ window.HistoryData = {
       evidence: "The historical role of Urs Schild and the Schild family in Swiss watchmaking is well documented across several independent reference sources.",
       unknown: "What has not yet been established is whether this branch is directly connected to the Schild family line represented elsewhere on this site.",
       people: ["urs-schild-watchmaker", "adolf-schild-watchmaker", "max-schild-watchmaker", "theodor-schild-watchmaker"]
+    },
+    {
+      id: "barossa-schild-lineage",
+      question: "Are the Barossa Schild family and our Schild family directly related?",
+      status: "researching",
+      evidence: "The history of the Schild family in the Barossa Valley is well documented beginning with Ben and Alma Schild in 1952.",
+      unknown: "A direct genealogical connection between this Australian branch and the Schild family represented elsewhere on this site has not yet been established.",
+      people: ["ben-schild-vigneron", "alma-schild-vigneron", "ed-schild-vigneron", "michael-schild-vigneron", "angus-schild-vigneron"]
     }
   ]
 };
