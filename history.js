@@ -242,11 +242,16 @@
       return s ? '<p style="margin:0 0 0.6rem;">' + s.title + "</p>" : "";
     }).join("") || "<p>Source citation still being completed.</p>";
 
-    viewerEl.querySelector(".h-viewer-inner").innerHTML =
+    var imageHTML = rec.image ?
+      '<div class="h-viewer-image"><img src="' + rec.image.src + '" alt="' + rec.image.alt + '" loading="lazy"></div>' +
+      '<p class="h-viewer-image-credit">' + rec.image.credit + "</p>" :
       '<div class="h-viewer-noimage">' +
       '<svg viewBox="0 0 40 40" fill="none"><rect x="5" y="4" width="30" height="32" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M11 13h18M11 20h18M11 27h11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>' +
       "<p>No digital scan on file yet &mdash; the details below are drawn from family research notes.</p>" +
-      "</div>" +
+      "</div>";
+
+    viewerEl.querySelector(".h-viewer-inner").innerHTML =
+      imageHTML +
       '<div class="h-viewer-tabs" role="tablist">' +
       '<button type="button" class="h-viewer-tab" role="tab" aria-selected="true" data-tab="transcript">Transcription</button>' +
       '<button type="button" class="h-viewer-tab" role="tab" aria-selected="false" data-tab="sources">Sources</button>' +

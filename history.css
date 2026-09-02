@@ -444,6 +444,33 @@
 .h-mystery p { margin: 0.75rem 0 0; font-size: 0.96rem; }
 .h-mystery .h-status { margin-top: 0.5rem; }
 
+/* ---------- Wider Schild story flag: a visible, non buried label for
+   content not yet proven to be part of the direct family line. Reuses
+   the same card shape as .h-mystery with a burgundy edge instead of
+   brass, so it reads as a distinct signal at a glance. ---------- */
+.h-lineage-flag {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: 1px solid var(--paper-line);
+  border-left: 3px solid var(--burgundy);
+  border-radius: 0 4px 4px 0;
+  padding: 0.85rem 1.1rem;
+  background: var(--paper-raised);
+  max-width: 620px;
+  margin: 1.25rem 0;
+}
+.h-lineage-flag-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--burgundy);
+}
+.h-lineage-flag p { margin: 0; font-size: 0.9rem; }
+.section-dark .h-lineage-flag { background: var(--charcoal-soft); border-color: var(--charcoal-line); }
+.section-dark .h-lineage-flag p { color: var(--cream-soft); }
+
 /* ---------- Places list / map ---------- */
 .h-place-map {
   background: var(--paper-raised);
@@ -625,6 +652,10 @@
 }
 .h-viewer-noimage svg { width: 40px; height: 40px; opacity: 0.6; }
 .h-viewer-noimage p { color: var(--cream-faint); font-size: 0.85rem; margin: 0; max-width: 32ch; }
+
+.h-viewer-image { margin-bottom: 0.6rem; }
+.h-viewer-image img { width: 100%; height: auto; max-height: 48vh; object-fit: contain; display: block; border-radius: 6px; background: var(--charcoal-soft); }
+.h-viewer-image-credit { color: var(--cream-faint); font-size: 0.72rem; margin: 0.5rem 0 1.5rem; }
 
 .h-viewer-tabs { display: flex; gap: 0.5rem; margin-bottom: 1.25rem; }
 .h-viewer-tab {
