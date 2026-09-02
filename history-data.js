@@ -593,6 +593,12 @@ window.HistoryData = {
       title: "Photograph of an ETA 2824 movement, Wikimedia Commons",
       note: "Own work photograph by Jpr, licensed CC BY SA 3.0.",
       status: "confirmed"
+    },
+    "s-video-schild1896": {
+      id: "s-video-schild1896",
+      title: "&ldquo;SCHILD, About Us,&rdquo; Schild Watches, via YouTube",
+      note: "A contemporary Swiss watch brand, trading as Schild 1896, that describes itself as reviving the historical Schild name in watchmaking from the 1890s onward. This is the brand&rsquo;s own account of its history, not independently verified by this archive, and it does not establish a connection to the Eterna and ETA history told above.",
+      status: "researching"
     }
   },
 

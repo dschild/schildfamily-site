@@ -486,6 +486,23 @@
 .h-place-map-credit { text-align: center; font-size: 0.72rem; color: var(--ink-faint); margin-top: 0.15rem; }
 .h-place-map-credit a { color: inherit; }
 
+/* ---------- Video embed: reuses .h-place-map's frame ---------- */
+.h-video-embed-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #000;
+}
+.h-video-embed-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* ---------- Archive cards ---------- */
 .h-archive-card {
   display: flex;
