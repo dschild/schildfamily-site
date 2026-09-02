@@ -333,6 +333,11 @@ if __name__ == "__main__":
         "Fredericksburg & Grapetown, Texas", "1850s–1860s",
         "social-fredericksburg-story.jpg",
     )
+    designed_card(
+        "Born to Race",
+        "Houston, Texas", "1950s–Present",
+        "social-born-to-race-story.jpg",
+    )
 
     # --- place-specific cards (places with their own dedicated real photo) ---
     full_bleed_card(A("history-cologne-muelheim.jpg"), "Cologne Mülheim", "Rhine Province, Germany", "Birthplace, 1920", "social-place-cologne-muelheim.jpg")

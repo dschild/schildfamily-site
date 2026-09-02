@@ -47,6 +47,25 @@ IMAGE_MAP = {
         "social-fredericksburg-story.jpg",
         "An archival card for the story of the Schilds of early Fredericksburg, Texas.",
     ),
+    "/history/stories/born-to-race/": (
+        "social-born-to-race-story.jpg",
+        "An archival card for the story of Born to Race, four generations of the Schild family on Texas tracks.",
+    ),
+
+    # --- people: Born to Race, linked to the story's image ---
+    "/history/people/charles-ray-schild/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/people/larry-schild-racer/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/people/jerry-schild-racer/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/people/linda-schild-high/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/people/gina-schild-knowles/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/people/jt-schild/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/people/mason-mitchell-hmp/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+
+    # --- places: Born to Race, linked to the story's image ---
+    "/history/places/playland-park-houston/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/places/meyer-speedway/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/places/darlington-raceway-sc/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
+    "/history/places/houston-motorsports-park/": ("social-born-to-race-story.jpg", "An archival card for the story of Born to Race, from the wider story of this Houston racing family."),
 
     # --- people: linked to their story's image ---
     "/history/people/erwin-schild-rabbi/": ("social-erwin-schild-story.jpg", "Adath Israel Congregation in Toronto, where Rabbi Erwin Schild served for more than forty years."),

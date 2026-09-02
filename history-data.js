@@ -239,6 +239,97 @@ window.HistoryData = {
       places: ["cologne-muelheim-germany"],
       events: ["family-deported-riga-1941"],
       documents: ["erwin-family-photo-pending"]
+    },
+    "charles-ray-schild": {
+      id: "charles-ray-schild",
+      name: "Charles Ray Schild",
+      years: "20th century",
+      birthPlace: "Texas",
+      role: "Early Stock Car Racer &middot; Playland Park &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "The earliest documented racer in this Houston Schild family, competing at Playland Park&rsquo;s stock car track in Houston. Detailed records of his career have not surfaced, so this entry stays close to what is confirmed: that racing in this family began with him. Presented here as wider Schild surname history, not a proven branch of the Fredericksburg and Grapetown family line documented elsewhere on this site.",
+      stories: ["born-to-race"],
+      places: ["playland-park-houston"],
+      events: ["charles-ray-racing-playland"],
+      documents: ["playland-park-context-pending"]
+    },
+    "larry-schild-racer": {
+      id: "larry-schild-racer",
+      name: "Larry Schild",
+      years: "20th century",
+      birthPlace: "Texas",
+      role: "Racer &middot; Family Patriarch of the Next Generation &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "Son of Charles Ray Schild and Jerry Schild&rsquo;s brother. Larry raced at Houston area tracks including Meyer Speedway, and his branch of the family carried racing forward into the next generation, including his sons and his daughter Gina Schild Knowles. Presented here as wider Schild surname history, not a proven branch of the Fredericksburg and Grapetown family line documented elsewhere on this site.",
+      stories: ["born-to-race"],
+      places: ["meyer-speedway"],
+      events: ["charles-ray-racing-playland"],
+      documents: []
+    },
+    "jerry-schild-racer": {
+      id: "jerry-schild-racer",
+      name: "Jerry Schild",
+      years: "1954&ndash;2012",
+      birthPlace: "Texas",
+      role: "NASCAR Cup Series Driver &middot; Meyer Speedway &middot; Houston Motorsports Park &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "Son of Charles Ray Schild. Began racing at Meyer Speedway in Houston in 1972, and by 1974 was competing in NASCAR&rsquo;s top series, making five starts that season including an eighth place finish at Darlington Raceway. He raced for decades afterward at Houston area short tracks, including a state championship in 2003 and a Houston Motorsports Park track championship in 2006. In 2009, weeks after donating a kidney to his sister Linda, he returned to racing. He died in 2012. Presented here as wider Schild surname history, not a proven branch of the Fredericksburg and Grapetown family line documented elsewhere on this site.",
+      stories: ["born-to-race"],
+      places: ["meyer-speedway", "darlington-raceway-sc", "houston-motorsports-park"],
+      events: ["charles-ray-racing-playland", "jerry-schild-meyer-debut-1972", "jerry-schild-nascar-cup-1974", "jerry-schild-state-championship-2003", "jerry-schild-hmp-championship-2006", "jerry-schild-kidney-donation-2009", "jerry-schild-death-2012"],
+      documents: ["jerry-schild-obituary", "jerry-schild-nascar-record-pending", "jerry-schild-racing-photo-pending"]
+    },
+    "linda-schild-high": {
+      id: "linda-schild-high",
+      name: "Linda Schild High",
+      years: "20th century",
+      birthPlace: "Texas",
+      role: "Jerry Schild&rsquo;s Sister &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "Jerry Schild&rsquo;s sister. In 2009 Jerry donated a kidney to her, then returned to racing only weeks later. Presented here as wider Schild surname history, not a proven branch of the Fredericksburg and Grapetown family line documented elsewhere on this site.",
+      stories: ["born-to-race"],
+      places: [],
+      events: ["jerry-schild-kidney-donation-2009"],
+      documents: []
+    },
+    "gina-schild-knowles": {
+      id: "gina-schild-knowles",
+      name: "Gina Schild Knowles",
+      years: "21st century",
+      birthPlace: "Texas",
+      role: "Track Promoter, Houston Motorsports Park &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "A member of the next generation of this racing family, Gina took over the lease of Houston Motorsports Park in 2019 and has worked since to keep short track racing alive there, including the track regaining NASCAR sanctioning around 2020. She represents the family&rsquo;s shift from driving to stewarding the sport itself. Presented here as wider Schild surname history, not a proven branch of the Fredericksburg and Grapetown family line documented elsewhere on this site.",
+      stories: ["born-to-race"],
+      places: ["houston-motorsports-park"],
+      events: ["gina-hmp-lease-2019", "hmp-nascar-sanctioning-2020"],
+      documents: ["gina-schild-knowles-photo-pending"]
+    },
+    "jt-schild": {
+      id: "jt-schild",
+      name: "J T Schild",
+      years: "21st century",
+      birthPlace: "Texas",
+      role: "Racer, Next Generation &middot; Wider Schild Story",
+      wideStory: true,
+      summary: "A member of the family&rsquo;s next generation of racers. Family accounts describe him racing at Houston area short tracks, but this archive has not yet located an independent published record confirming the specific details of his career, so none are asserted here. Presented here as wider Schild surname history, not a proven branch of the Fredericksburg and Grapetown family line documented elsewhere on this site.",
+      stories: ["born-to-race"],
+      places: ["houston-motorsports-park"],
+      events: [],
+      documents: []
+    },
+    "mason-mitchell-hmp": {
+      id: "mason-mitchell-hmp",
+      name: "Mason Mitchell",
+      years: "21st century",
+      birthPlace: "Texas",
+      role: "Race Director, Houston Motorsports Park &middot; Not a Confirmed Relative",
+      wideStory: true,
+      summary: "Race director at Houston Motorsports Park, working alongside Gina Schild Knowles to keep the track running. Mason has his own separate, well documented racing family background, unconnected to the Schild family: a great grandfather who rode factory Indian motorcycles, racing grandfathers, and a mother who founded the Gulf Coast Racing Series. No source connects him to the Schild family by blood, and this archive does not present him as one. He appears here as a colleague and fellow steward of the sport at Houston Motorsports Park.",
+      stories: ["born-to-race"],
+      places: ["houston-motorsports-park"],
+      events: [],
+      documents: []
     }
   },
 
@@ -465,6 +556,50 @@ window.HistoryData = {
       people: ["erwin-schild-rabbi"],
       stories: ["erwin-schild"],
       events: ["joins-adath-israel-1947", "retires-adath-israel-1989"]
+    },
+    "playland-park-houston": {
+      id: "playland-park-houston",
+      name: "Playland Park, Houston",
+      region: "Houston, Texas",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A Houston amusement park open from 1940 to 1966 that also hosted a stock car racing track, where Charles Ray Schild raced in the family&rsquo;s earliest documented racing years. Playland Park closed in 1966, and no trace of the site remains today. This entry describes the wider park and track, and is not evidence of a direct connection to the family line documented elsewhere on this site.",
+      people: ["charles-ray-schild"],
+      stories: ["born-to-race"],
+      events: ["charles-ray-racing-playland"]
+    },
+    "meyer-speedway": {
+      id: "meyer-speedway",
+      name: "Meyer Speedway",
+      region: "South Main area, Houston, Texas",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A short track in Houston, active through the 1960s and into the 1970s, where Jerry Schild began racing in 1972 and Larry Schild also competed. Sources describe its general location near South Main without agreeing on a single precise address, so none is asserted here. This entry describes the wider track, and is not evidence of a direct connection to the family line documented elsewhere on this site.",
+      people: ["jerry-schild-racer", "larry-schild-racer"],
+      stories: ["born-to-race"],
+      events: ["jerry-schild-meyer-debut-1972"]
+    },
+    "darlington-raceway-sc": {
+      id: "darlington-raceway-sc",
+      name: "Darlington Raceway",
+      region: "Darlington, South Carolina",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "One of NASCAR&rsquo;s oldest superspeedways, nicknamed &ldquo;Too Tough to Tame.&rdquo; Jerry Schild finished eighth here in 1974 during his brief NASCAR Cup Series season, the high point of his top level career. This entry describes the wider track, and is not evidence of a direct connection to the family line documented elsewhere on this site.",
+      people: ["jerry-schild-racer"],
+      stories: ["born-to-race"],
+      events: ["jerry-schild-nascar-cup-1974"]
+    },
+    "houston-motorsports-park": {
+      id: "houston-motorsports-park",
+      name: "Houston Motorsports Park",
+      region: "Houston, Texas",
+      context: "wider-schild-story",
+      wideStory: true,
+      summary: "A three eighths mile high banked asphalt oval in Houston where Jerry Schild won a track championship in 2006, and which Gina Schild Knowles has run since taking over its lease in 2019, working with race director Mason Mitchell to keep it operating, including regaining NASCAR sanctioning around 2020. This entry describes the wider track, and is not evidence of a direct connection to the family line documented elsewhere on this site.",
+      people: ["jerry-schild-racer", "gina-schild-knowles", "jt-schild", "mason-mitchell-hmp"],
+      stories: ["born-to-race"],
+      events: ["jerry-schild-hmp-championship-2006", "gina-hmp-lease-2019", "hmp-nascar-sanctioning-2020"]
     }
   },
 
@@ -530,6 +665,19 @@ window.HistoryData = {
       places: ["cologne-muelheim-germany", "wurzburg-germany", "dachau-germany", "london-england", "canada-wartime-internment", "toronto-canada", "adath-israel-congregation"],
       events: ["birth-erwin-1920", "kristallnacht-1938", "dachau-imprisoned-1938", "dachau-released-1938", "escape-to-britain-1939", "deported-canada-1940", "released-internment-1942", "ordained-rabbi-erwin", "joins-adath-israel-1947", "retires-adath-israel-1989", "order-of-canada-2001", "death-erwin-2024", "family-deported-riga-1941", "kurt-emigrates-1940"],
       documents: ["dachau-remembrance-book-entry", "order-of-canada-citation", "wurzburg-seminary-photo", "munich-synagogue-1938-photo", "dachau-memorial-photo", "cologne-muelheim-photo", "wurzburg-town-photo", "adath-israel-building-photo", "erwin-schild-portrait-pending", "erwin-schild-germany-visits-pending", "adath-israel-congregation-life-pending", "erwin-family-photo-pending"]
+    },
+    "born-to-race": {
+      id: "born-to-race",
+      title: "Born to Race",
+      subtitle: "Four Generations of the Schild Family on Texas Tracks",
+      dateRange: "1950s&ndash;Present",
+      location: "Houston, Texas",
+      wideStory: true,
+      teaser: "From a stock car track at a Houston amusement park to NASCAR&rsquo;s biggest tracks and back to running a short track of their own, racing became something this Schild family passed down, generation after generation.",
+      people: ["charles-ray-schild", "larry-schild-racer", "jerry-schild-racer", "linda-schild-high", "gina-schild-knowles", "jt-schild", "mason-mitchell-hmp"],
+      places: ["playland-park-houston", "meyer-speedway", "darlington-raceway-sc", "houston-motorsports-park"],
+      events: ["charles-ray-racing-playland", "jerry-schild-meyer-debut-1972", "jerry-schild-nascar-cup-1974", "jerry-schild-state-championship-2003", "jerry-schild-hmp-championship-2006", "jerry-schild-kidney-donation-2009", "jerry-schild-death-2012", "gina-hmp-lease-2019", "hmp-nascar-sanctioning-2020"],
+      documents: ["jerry-schild-obituary", "playland-park-context-pending", "jerry-schild-nascar-record-pending", "jerry-schild-racing-photo-pending", "gina-schild-knowles-photo-pending"]
     }
   },
 
@@ -943,6 +1091,107 @@ window.HistoryData = {
       places: ["toronto-canada"],
       story: "erwin-schild",
       sourceCount: 3
+    },
+    {
+      id: "charles-ray-racing-playland",
+      year: 1950,
+      date: "Approximate, 1950s",
+      title: "Charles Ray Schild Races at Playland Park",
+      description: "The earliest documented racing in this family: Charles Ray Schild competed at the stock car track inside Houston&rsquo;s Playland Park, which operated from 1940 until its closure in 1966. No exact date has been confirmed, so an approximate decade is used here rather than an invented specific date.",
+      people: ["charles-ray-schild"],
+      places: ["playland-park-houston"],
+      story: "born-to-race",
+      document: "playland-park-context-pending",
+      sourceCount: 1
+    },
+    {
+      id: "jerry-schild-meyer-debut-1972",
+      year: 1972,
+      date: "1972",
+      title: "Jerry Schild Begins Racing at Meyer Speedway",
+      description: "Jerry Schild started racing at Meyer Speedway in Houston in 1972, the beginning of a driving career that would reach NASCAR&rsquo;s top series just two years later.",
+      people: ["jerry-schild-racer"],
+      places: ["meyer-speedway"],
+      story: "born-to-race",
+      sourceCount: 2
+    },
+    {
+      id: "jerry-schild-nascar-cup-1974",
+      year: 1974,
+      date: "1974",
+      title: "Jerry Schild Races in NASCAR's Top Series",
+      description: "Jerry Schild made five starts in NASCAR&rsquo;s top series in 1974, recording an eighth place finish at Darlington Raceway, the high point of his brief top level career before he returned to short track racing in Texas.",
+      people: ["jerry-schild-racer"],
+      places: ["darlington-raceway-sc"],
+      story: "born-to-race",
+      sourceCount: 2
+    },
+    {
+      id: "jerry-schild-state-championship-2003",
+      year: 2003,
+      date: "2003",
+      title: "Jerry Schild Wins a Texas State Championship",
+      description: "Decades after his NASCAR season, Jerry Schild won a state championship racing at Houston area short tracks, followed by a runner up finish the following year.",
+      people: ["jerry-schild-racer"],
+      places: [],
+      story: "born-to-race",
+      sourceCount: 1
+    },
+    {
+      id: "jerry-schild-hmp-championship-2006",
+      year: 2006,
+      date: "2006",
+      title: "Jerry Schild Wins a Houston Motorsports Park Track Championship",
+      description: "Jerry Schild won a track championship at Houston Motorsports Park in 2006, a track his niece Gina would later take over running herself.",
+      people: ["jerry-schild-racer"],
+      places: ["houston-motorsports-park"],
+      story: "born-to-race",
+      sourceCount: 1
+    },
+    {
+      id: "jerry-schild-kidney-donation-2009",
+      year: 2009,
+      date: "2009",
+      title: "Six Weeks After Surgery",
+      description: "In 2009, Jerry Schild donated a kidney to his sister Linda. Only weeks after the surgery, he returned to racing, a detail his family and those who knew him have pointed to as characteristic of how central racing was to his life.",
+      people: ["jerry-schild-racer", "linda-schild-high"],
+      places: [],
+      story: "born-to-race",
+      sourceCount: 1
+    },
+    {
+      id: "jerry-schild-death-2012",
+      year: 2012,
+      date: "2012",
+      title: "Jerry Schild Dies",
+      description: "Jerry Schild died in 2012, closing out a racing career that spanned four decades, from a Houston short track debut in 1972 to a NASCAR Cup season in 1974 and years of short track racing that followed.",
+      people: ["jerry-schild-racer"],
+      places: [],
+      story: "born-to-race",
+      document: "jerry-schild-obituary",
+      sourceCount: 1
+    },
+    {
+      id: "gina-hmp-lease-2019",
+      year: 2019,
+      date: "2019",
+      title: "Gina Schild Knowles Takes Over Houston Motorsports Park",
+      description: "Gina Schild Knowles took over the lease of Houston Motorsports Park in 2019, moving her branch of the family from driving into running the track itself.",
+      people: ["gina-schild-knowles"],
+      places: ["houston-motorsports-park"],
+      story: "born-to-race",
+      sourceCount: 1
+    },
+    {
+      id: "hmp-nascar-sanctioning-2020",
+      year: 2020,
+      date: "Approximate, around 2020",
+      title: "Houston Motorsports Park Regains NASCAR Sanctioning",
+      description: "Under Gina Schild Knowles, Houston Motorsports Park regained NASCAR sanctioning, restoring the track&rsquo;s standing within the sport her family had raced in for generations.",
+      people: ["gina-schild-knowles"],
+      places: ["houston-motorsports-park"],
+      story: "born-to-race",
+      sourceCount: 1
     }
   ],
 
@@ -1385,6 +1634,64 @@ window.HistoryData = {
       pendingNote: "No rights cleared photograph of Hermann, Hetti, Kurt, or Margot Schild has been located for this archive. This record is a placeholder rather than a guess at what such a photograph might show.",
       transcription: "This record is reserved for a photograph of Erwin Schild's parents Hermann and Hetti, or his siblings Kurt and Margot, should one be located and rights cleared in the future.",
       sourceCount: 0
+    },
+    "jerry-schild-obituary": {
+      id: "jerry-schild-obituary",
+      title: "Obituary &mdash; Jerry Schild",
+      type: "Obituary",
+      date: "2012",
+      people: ["jerry-schild-racer"],
+      place: "houston-motorsports-park",
+      hasImage: false,
+      transcription: "Records Jerry Schild's racing career from his 1972 start at Meyer Speedway through his 1974 NASCAR top series season, his return to short track racing, his 2009 kidney donation to his sister Linda, and his death in 2012.",
+      sourceCount: 1
+    },
+    "playland-park-context-pending": {
+      id: "playland-park-context-pending",
+      title: "Playland Park Stock Car Track, Houston (Photograph Pending)",
+      type: "Historical Photograph",
+      date: "1940&ndash;1966",
+      people: [],
+      place: "playland-park-houston",
+      hasImage: false,
+      pendingNote: "Playland Park closed in 1966 and no trace of the site remains. This archive has not yet located a rights cleared photograph of the track itself, so no image is shown here rather than substituting an unrelated stock photograph.",
+      transcription: "This record is reserved for a photograph of the Playland Park stock car track, where Charles Ray Schild raced, should a rights cleared image be located.",
+      sourceCount: 1
+    },
+    "jerry-schild-nascar-record-pending": {
+      id: "jerry-schild-nascar-record-pending",
+      title: "Jerry Schild's 1974 NASCAR Season Record",
+      type: "Race Record",
+      date: "1974",
+      people: ["jerry-schild-racer"],
+      place: "darlington-raceway-sc",
+      hasImage: false,
+      transcription: "Confirms five starts for Jerry Schild in NASCAR's top series during the 1974 season, including an eighth place finish at Darlington Raceway. This is a summary of published race records rather than a reproduction of any single newspaper article.",
+      sourceCount: 2
+    },
+    "jerry-schild-racing-photo-pending": {
+      id: "jerry-schild-racing-photo-pending",
+      title: "Jerry Schild in Victory Lane (Photographs Pending)",
+      type: "Racing Photograph",
+      date: "1972&ndash;2009",
+      people: ["jerry-schild-racer"],
+      place: "meyer-speedway",
+      hasImage: false,
+      pendingNote: "This archive knows photographs of Jerry Schild racing and in victory lane very likely exist in newspaper archives, track programs, and family collections, but a rights cleared copy has not yet been secured. This record is a placeholder rather than a guess at what such a photograph might show.",
+      transcription: "This record is reserved for photographs of Jerry Schild racing or celebrating a win, should rights cleared images be located.",
+      sourceCount: 0
+    },
+    "gina-schild-knowles-photo-pending": {
+      id: "gina-schild-knowles-photo-pending",
+      title: "Gina Schild Knowles at Houston Motorsports Park (Photograph Pending)",
+      type: "Portrait Photograph",
+      date: "2019&ndash;Present",
+      people: ["gina-schild-knowles"],
+      place: "houston-motorsports-park",
+      hasImage: false,
+      pendingNote: "No rights cleared photograph of Gina Schild Knowles has yet been secured for this archive. This record is a placeholder rather than a guess at what such a photograph might show.",
+      transcription: "This record is reserved for a photograph of Gina Schild Knowles at Houston Motorsports Park, should a rights cleared image be located.",
+      sourceCount: 0
     }
   },
 
@@ -1664,6 +1971,72 @@ window.HistoryData = {
       title: "Photograph of Adath Israel Congregation, Toronto, Wikimedia Commons",
       note: "Photograph by SimonP, 2010, licensed CC BY SA 3.0.",
       status: "confirmed"
+    },
+    "s-wikipedia-jerry-schild": {
+      id: "s-wikipedia-jerry-schild",
+      title: "Wikipedia, &ldquo;Jerry Schild&rdquo;",
+      note: "General encyclopedia entry confirming Jerry Schild's 1974 NASCAR top series season, his five starts, and his eighth place finish at Darlington Raceway.",
+      status: "confirmed"
+    },
+    "s-legacy-jerry-schild-obit": {
+      id: "s-legacy-jerry-schild-obit",
+      title: "Houston Chronicle obituary for Jerry Schild, via legacy.com",
+      note: "Newspaper obituary confirming Jerry Schild's family, his racing career from 1972 onward, his 2009 kidney donation to his sister Linda and return to racing weeks later, and his death in 2012.",
+      status: "confirmed"
+    },
+    "s-nascar-gina-knowles": {
+      id: "s-nascar-gina-knowles",
+      title: "NASCAR.com feature on Gina Schild Knowles and Houston Motorsports Park",
+      note: "Official NASCAR coverage confirming Gina Schild Knowles took over the lease of Houston Motorsports Park in 2019 and the track's return to NASCAR sanctioning.",
+      status: "confirmed"
+    },
+    "s-shorttrack-scene-hmp": {
+      id: "s-shorttrack-scene-hmp",
+      title: "Short Track Scene article on Houston Motorsports Park",
+      note: "Trade publication coverage of Houston Motorsports Park's history and operations under Gina Schild Knowles.",
+      status: "confirmed"
+    },
+    "s-nascar-mason-mitchell": {
+      id: "s-nascar-mason-mitchell",
+      title: "NASCAR.com feature on Mason Mitchell, Houston Motorsports Park race director",
+      note: "Official NASCAR coverage describing Mason Mitchell's own racing family background, separate from the Schild family.",
+      status: "confirmed"
+    },
+    "s-wikipedia-playland-park": {
+      id: "s-wikipedia-playland-park",
+      title: "Wikipedia, &ldquo;Playland Park (Houston)&rdquo;",
+      note: "General encyclopedia entry confirming Playland Park operated in Houston from 1940 to 1966 and included a stock car racing track.",
+      status: "confirmed"
+    },
+    "s-chron-meyer-speedway": {
+      id: "s-chron-meyer-speedway",
+      title: "Houston Chronicle coverage referencing Meyer Speedway",
+      note: "Newspaper coverage placing Meyer Speedway in Houston's South Main area, active through the 1960s and into the 1970s. Sources describe the track's boundaries in general rather than fully consistent terms, so no single precise address is asserted in this story.",
+      status: "probable"
+    },
+    "s-lonestar-speedzone-forum": {
+      id: "s-lonestar-speedzone-forum",
+      title: "Lone Star Speedzone forum threads on Houston area short tracks",
+      note: "Enthusiast forum discussion used only as a lead pointing toward Meyer Speedway and Houston Motorsports Park history, not as a standalone source for any specific claim in this story.",
+      status: "probable"
+    },
+    "s-wikipedia-space-city-300": {
+      id: "s-wikipedia-space-city-300",
+      title: "Wikipedia, &ldquo;1971 Space City 300&rdquo;",
+      note: "General encyclopedia entry on a 1971 NASCAR race in the Houston area, used here only as background context for the era's Texas racing scene.",
+      status: "confirmed"
+    },
+    "s-hmp-official": {
+      id: "s-hmp-official",
+      title: "Houston Motorsports Park official website",
+      note: "Track's own site describing its three eighths mile high banked asphalt oval configuration.",
+      status: "confirmed"
+    },
+    "s-myracepass-hmp": {
+      id: "s-myracepass-hmp",
+      title: "MyRacePass track profile, Houston Motorsports Park",
+      note: "Racing schedule platform confirming Houston Motorsports Park's three eighths mile asphalt oval configuration.",
+      status: "confirmed"
     }
   },
 
@@ -1731,7 +2104,21 @@ window.HistoryData = {
     "adath-israel-building-photo": ["s-img-adathisrael-building"],
     "erwin-schild-portrait-pending": ["s-adathisrael-ourstory", "s-cjn-profile", "s-uscshoah-testimony"],
     "erwin-schild-germany-visits-pending": ["s-gg-orderofcanada"],
-    "adath-israel-congregation-life-pending": ["s-adathisrael-ourstory"]
+    "adath-israel-congregation-life-pending": ["s-adathisrael-ourstory"],
+    "charles-ray-racing-playland": ["s-legacy-jerry-schild-obit", "s-wikipedia-playland-park"],
+    "jerry-schild-meyer-debut-1972": ["s-wikipedia-jerry-schild", "s-legacy-jerry-schild-obit"],
+    "jerry-schild-nascar-cup-1974": ["s-wikipedia-jerry-schild", "s-legacy-jerry-schild-obit"],
+    "jerry-schild-state-championship-2003": ["s-legacy-jerry-schild-obit"],
+    "jerry-schild-hmp-championship-2006": ["s-legacy-jerry-schild-obit"],
+    "jerry-schild-kidney-donation-2009": ["s-legacy-jerry-schild-obit"],
+    "jerry-schild-death-2012": ["s-legacy-jerry-schild-obit"],
+    "gina-hmp-lease-2019": ["s-nascar-gina-knowles", "s-shorttrack-scene-hmp"],
+    "hmp-nascar-sanctioning-2020": ["s-nascar-gina-knowles", "s-shorttrack-scene-hmp"],
+    "jerry-schild-obituary": ["s-legacy-jerry-schild-obit"],
+    "playland-park-context-pending": ["s-wikipedia-playland-park"],
+    "jerry-schild-nascar-record-pending": ["s-wikipedia-jerry-schild", "s-legacy-jerry-schild-obit"],
+    "jerry-schild-racing-photo-pending": ["s-legacy-jerry-schild-obit"],
+    "gina-schild-knowles-photo-pending": ["s-nascar-gina-knowles"]
   },
 
   mysteries: [
@@ -1774,6 +2161,22 @@ window.HistoryData = {
       evidence: "Erwin Schild&rsquo;s life and family background are extensively documented across multiple independent sources, including a German memorial project, Adath Israel Congregation, the Governor General of Canada, and Canadian press coverage.",
       unknown: "A direct genealogical connection between his German Schild family and the family line represented elsewhere on this site has not yet been established.",
       people: ["erwin-schild-rabbi", "hermann-schild-cologne", "hetti-schild-neugarten", "kurt-schild-brother", "margot-schild-sister"]
+    },
+    {
+      id: "born-to-race-lineage",
+      question: "Is this Houston racing Schild family connected to our direct Schild family line?",
+      status: "researching",
+      evidence: "Jerry Schild's racing career, his brother Larry, his sister Linda, and his niece Gina Schild Knowles are documented across Wikipedia, a Houston Chronicle obituary, and NASCAR's own coverage of Houston Motorsports Park.",
+      unknown: "A direct genealogical connection between this Houston racing family and the Fredericksburg and Grapetown Schild family line documented elsewhere on this site has not yet been established.",
+      people: ["charles-ray-schild", "larry-schild-racer", "jerry-schild-racer", "linda-schild-high", "gina-schild-knowles"]
+    },
+    {
+      id: "jt-schild-record",
+      question: "What is J T Schild's confirmed racing record?",
+      status: "researching",
+      evidence: "Family accounts describe J T Schild as part of the next generation of this family's racers at Houston area tracks.",
+      unknown: "An independent, published source confirming his specific results, car number, or years racing has not yet been located, so no specific statistics are presented for him in this story.",
+      people: ["jt-schild"]
     }
   ]
 };
