@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Places &middot; The Schild Family Archive</title>
+<meta name="description" content="Where the Schild family lived and settled, from Saxony to the Texas Hill Country.">
+<link rel="icon" href="/assets/shield.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/history.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/">
+      <img class="brand-mark" src="/assets/shield.svg" alt="" width="28" height="32">
+      <span class="brand-word">Schild Family Archive</span>
+    </a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/#the-name">The Schild Name</a>
+      <a href="/history/" aria-current="page">History</a>
+      <a href="/#merchandise">Merchandise</a>
+      <a href="/#contribute">Contribute</a>
+    </nav>
+  </div>
+</header>
+
+<section class="h-hero">
+  <div class="h-hero-inner">
+    <p class="h-breadcrumb"><a href="/history/">History</a><span aria-hidden="true">/</span><span class="current">Places</span></p>
+    <span class="eyebrow">Schild Family History</span>
+    <h1>Places</h1>
+    <p>Where the record places the family so far, in the Texas Hill Country.</p>
+  </div>
+</section>
+
+<main id="main">
+  <section class="section">
+    <figure class="h-place-map" aria-labelledby="place-map-title" aria-describedby="place-map-desc">
+      <svg viewBox="0 0 400 220" role="img" aria-labelledby="place-map-title" aria-describedby="place-map-desc">
+        <title id="place-map-title">Schematic map of Gillespie County, Texas</title>
+        <desc id="place-map-desc">A stylized, not-to-scale diagram showing Fredericksburg and Grapetown, Texas, a few miles apart in Gillespie County.</desc>
+        <rect width="400" height="220" fill="#1b1712"/>
+        <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+          <line x1="0" y1="55" x2="400" y2="55"/>
+          <line x1="0" y1="110" x2="400" y2="110"/>
+          <line x1="0" y1="165" x2="400" y2="165"/>
+          <line x1="100" y1="0" x2="100" y2="220"/>
+          <line x1="200" y1="0" x2="200" y2="220"/>
+          <line x1="300" y1="0" x2="300" y2="220"/>
+        </g>
+        <path d="M200,90 C210,130 215,150 208,168" fill="none" stroke="#d8b466" stroke-width="1.6" stroke-dasharray="2 6" stroke-linecap="round"/>
+        <circle cx="200" cy="90" r="7" fill="#c79a42"/>
+        <circle cx="200" cy="90" r="7" fill="none" stroke="#f3ecdd" stroke-width="1"/>
+        <text x="200" y="70" text-anchor="middle" font-family="Fraunces, serif" font-size="16" font-weight="600" fill="#f3ecdd">Fredericksburg</text>
+        <circle cx="208" cy="168" r="6" fill="#8c6a9c"/>
+        <circle cx="208" cy="168" r="6" fill="none" stroke="#f3ecdd" stroke-width="1"/>
+        <text x="208" y="192" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#f3ecdd">Grapetown</text>
+        <text x="208" y="206" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#c9bea9">a few miles south</text>
+      </svg>
+      <figcaption class="h-place-map-caption">Schematic, not to scale. See the list below for the same information.</figcaption>
+    </figure>
+
+    <ul class="h-entity-list" data-related="all-places" style="grid-template-columns:1fr;"></ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <img class="footer-mark" src="/assets/shield.svg" alt="" width="20" height="23">
+  <p>The Schild Family Archive &middot; a free, ongoing family history project.</p>
+</footer>
+
+<script src="/app.js" defer></script>
+<script src="/history-data.js" defer></script>
+<script src="/history.js" defer></script>
+</body>
+</html>

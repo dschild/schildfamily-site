@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stories &middot; The Schild Family Archive</title>
+<meta name="description" content="Illustrated features on Schild family history.">
+<link rel="icon" href="/assets/shield.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/history.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/">
+      <img class="brand-mark" src="/assets/shield.svg" alt="" width="28" height="32">
+      <span class="brand-word">Schild Family Archive</span>
+    </a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/#the-name">The Schild Name</a>
+      <a href="/history/" aria-current="page">History</a>
+      <a href="/#merchandise">Merchandise</a>
+      <a href="/#contribute">Contribute</a>
+    </nav>
+  </div>
+</header>
+
+<section class="h-hero">
+  <div class="h-hero-inner">
+    <p class="h-breadcrumb"><a href="/history/">History</a><span aria-hidden="true">/</span><span class="current">Stories</span></p>
+    <span class="eyebrow">Schild Family History</span>
+    <h1>Stories</h1>
+    <p>Illustrated features that bring together the people, places, and records behind each chapter of family history.</p>
+  </div>
+</section>
+
+<main id="main">
+  <section class="section">
+    <div class="h-card-grid" data-related="all-stories" style="margin-top:0;"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <img class="footer-mark" src="/assets/shield.svg" alt="" width="20" height="23">
+  <p>The Schild Family Archive &middot; a free, ongoing family history project.</p>
+</footer>
+
+<script src="/app.js" defer></script>
+<script src="/history-data.js" defer></script>
+<script src="/history.js" defer></script>
+</body>
+</html>

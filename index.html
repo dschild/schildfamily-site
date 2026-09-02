@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="history.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -30,6 +31,7 @@
     <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="#main" aria-current="page">Home</a>
       <a href="#the-name">The Schild Name</a>
+      <a href="history/">History</a>
       <a href="#merchandise">Merchandise</a>
       <a href="#contribute">Contribute</a>
     </nav>
@@ -73,6 +75,18 @@
         </a>
       </nav>
     </div>
+  </section>
+
+  <section class="section reveal" style="padding-top:0;">
+    <a class="history-entry" href="history/">
+      <span class="history-entry-visual" aria-hidden="true" id="home-history-visual"></span>
+      <span class="history-entry-body">
+        <p class="section-eyebrow" style="margin-bottom:0.4rem;">Explore Our History</p>
+        <h3>Stories, People, Places &amp; Records</h3>
+        <p>Stories, places, photographs, and records from generations of the Schild family &mdash; explored one document at a time.</p>
+        <span class="btn-primary">Explore the Family History &rarr;</span>
+      </span>
+    </a>
   </section>
 
   <section class="section name-zone reveal" id="the-name">
@@ -267,5 +281,19 @@
   <p>The Schild Family Archive &middot; a free, ongoing family history project.</p>
 </footer>
 <script src="app.js" defer></script>
+<script>
+  document.getElementById("home-history-visual").innerHTML =
+    '<svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" role="presentation">' +
+    '<rect width="320" height="180" fill="#1b1712"/>' +
+    '<rect x="24" y="24" width="130" height="132" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.55"/>' +
+    '<line x1="42" y1="52" x2="138" y2="52" stroke="#d8b466" stroke-width="1.5" opacity="0.7"/>' +
+    '<line x1="42" y1="68" x2="138" y2="68" stroke="#8c8272" stroke-width="1" opacity="0.55"/>' +
+    '<line x1="42" y1="82" x2="120" y2="82" stroke="#8c8272" stroke-width="1" opacity="0.55"/>' +
+    '<line x1="42" y1="96" x2="130" y2="96" stroke="#8c8272" stroke-width="1" opacity="0.55"/>' +
+    '<line x1="42" y1="118" x2="110" y2="118" stroke="#8c8272" stroke-width="1" opacity="0.4"/>' +
+    '<circle cx="235" cy="90" r="50" fill="none" stroke="#a9812f" stroke-width="1.5" opacity="0.5"/>' +
+    '<path d="M235 64v52M209 90h52" stroke="#d8b466" stroke-width="1.5" opacity="0.6"/>' +
+    '</svg>';
+</script>
 </body>
 </html>
