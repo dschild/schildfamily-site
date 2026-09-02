@@ -17,6 +17,17 @@
   };
   var STATUS_LABEL = { confirmed: "Confirmed", probable: "Probable", researching: "Researching" };
 
+  /* First-and-last initials, skipping middle initials ("W.") and
+     generational suffixes ("Jr.", "III") so longer names still
+     produce a clean two-letter portrait monogram. */
+  function initialsFor(name) {
+    var words = name.split(" ").filter(function (w) {
+      return !/^[A-Z]\.$/.test(w) && !/^(Jr|Sr|II|III|IV)\.?$/i.test(w);
+    });
+    if (words.length === 0) words = name.split(" ");
+    return words.map(function (w) { return w[0]; }).join("").slice(0, 2);
+  }
+
   function statusBadgeHTML(status) {
     var s = STATUS_LABEL[status] ? status : "researching";
     return '<span class="h-status ' + s + '">' + STATUS_ICON[s] + STATUS_LABEL[s] + "</span>";
@@ -32,7 +43,7 @@
   function personCardHTML(id) {
     var p = D.people[id];
     if (!p) return "";
-    var initials = p.name.split(" ").map(function (w) { return w[0]; }).join("").slice(0, 2);
+    var initials = initialsFor(p.name);
     return (
       '<a class="h-entity-card" href="/history/people/' + id + '/">' +
       '<span class="h-entity-portrait" aria-hidden="true">' + initials + "</span>" +
@@ -45,7 +56,7 @@
   function personProfileCardHTML(id) {
     var p = D.people[id];
     if (!p) return "";
-    var initials = p.name.split(" ").map(function (w) { return w[0]; }).join("").slice(0, 2);
+    var initials = initialsFor(p.name);
     return (
       '<a class="h-entity-card" href="/history/people/' + id + '/" style="align-items:flex-start;">' +
       '<span class="h-entity-portrait" aria-hidden="true">' + initials + "</span>" +

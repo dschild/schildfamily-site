@@ -681,3 +681,135 @@ body.h-lock { overflow: hidden; }
   .history-entry-visual { aspect-ratio: auto; width: 42%; flex-shrink: 0; }
   .history-entry-body { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; padding: 1.75rem 2rem; }
 }
+
+/* ============================================================
+   Reusable components for archival/military-flavored stories
+   (first used by the August Schild Jr. / 376th BG story, built
+   to be reused by any future story with a similar "exhibit,
+   not a war game" visual language).
+   ============================================================ */
+
+/* ---------- Dark section wrapper, for cinematic light/dark rhythm ---------- */
+.section-dark {
+  background: var(--charcoal);
+  color: var(--cream-soft);
+}
+.section-dark h2, .section-dark h3 { color: var(--cream); }
+.section-dark p { color: var(--cream-soft); }
+.section-dark .h-story-section-inner { max-width: var(--max-width); margin: 0 auto; padding: 2.75rem 1.5rem; }
+@media (min-width: 760px) { .section-dark .h-story-section-inner { padding: 3.5rem 2rem; } }
+
+/* ---------- Unit badge (small pill, e.g. "513th BS", "The Liberandos") ---------- */
+.h-unit-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--brass);
+  color: var(--brass-on-dark);
+  background: rgba(169, 129, 47, 0.1);
+}
+.h-unit-badge + .h-unit-badge { margin-left: 0.4rem; }
+.h-unit-badge-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0 0; }
+
+/* ---------- Stat row (e.g. 451 missions · 4 squadrons · B-24 Liberator) ---------- */
+.h-stat-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem 1rem;
+  margin: 1.75rem 0 0;
+  max-width: 640px;
+}
+.h-stat-num {
+  display: block;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.6rem, 5vw, 2.1rem);
+  color: var(--brass-on-dark);
+  line-height: 1.1;
+}
+.h-stat-label { display: block; font-size: 0.82rem; color: var(--cream-faint); margin-top: 0.3rem; }
+@media (min-width: 600px) { .h-stat-row { grid-template-columns: repeat(4, 1fr); } }
+
+/* ---------- Military personnel card ---------- */
+.h-mil-card {
+  background: var(--charcoal-soft);
+  border: 1px solid var(--charcoal-line);
+  border-left: 3px solid var(--brass);
+  border-radius: 4px;
+  padding: 1.5rem 1.5rem 1.6rem;
+  max-width: 560px;
+  margin: 1.75rem 0 0;
+}
+.h-mil-card-rank {
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brass-on-dark);
+  margin: 0 0 0.4rem;
+}
+.h-mil-card-name {
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 3.5vw, 1.6rem);
+  color: var(--cream);
+  margin: 0 0 1.1rem;
+  line-height: 1.25;
+}
+.h-mil-facts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin: 0;
+}
+.h-mil-facts dt { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--brass-on-dark); }
+.h-mil-facts dd { margin: 0.15rem 0 0; font-size: 0.95rem; color: var(--cream-soft); }
+@media (min-width: 540px) { .h-mil-facts { grid-template-columns: 1fr 1fr; } }
+
+/* ---------- Crew position diagram (native <details>, no JS needed) ---------- */
+.h-crew-diagram {
+  border: 1px solid var(--charcoal-line);
+  border-radius: 4px;
+  background: var(--charcoal-soft);
+  padding: 0;
+  margin: 1.75rem 0 0;
+  max-width: 640px;
+}
+.h-crew-diagram > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 44px;
+  padding: 0.9rem 1.1rem;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--cream);
+}
+.h-crew-diagram > summary::-webkit-details-marker { display: none; }
+.h-crew-diagram > summary::after { content: "+"; font-size: 1.3rem; color: var(--brass-on-dark); flex-shrink: 0; }
+.h-crew-diagram[open] > summary::after { content: "\2212"; }
+.h-crew-diagram-body { padding: 0.25rem 1.1rem 1.35rem; }
+.h-crew-diagram-body svg { width: 100%; height: auto; display: block; }
+.h-crew-diagram-caption { font-size: 0.82rem; color: var(--cream-faint); margin: 0.85rem 0 0; max-width: 60ch; }
+
+/* ---------- Route / theater map: reuses .h-place-map's dark frame ---------- */
+.h-route-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  max-width: 560px;
+}
+.h-route-legend li { display: flex; align-items: center; gap: 0.6rem; }
+.h-route-legend .h-route-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--burgundy); flex-shrink: 0; }
+.h-route-legend a { display: inline-flex; align-items: center; min-height: 44px; }

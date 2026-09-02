@@ -38,6 +38,25 @@ window.HistoryData = {
       places: ["grapetown-texas", "fredericksburg-texas"],
       events: ["land-deed-1854", "census-1860"],
       documents: ["land-deed-1854", "census-1860"]
+    },
+    "august-schild-jr": {
+      id: "august-schild-jr",
+      name: "August W. Schild Jr.",
+      years: "b. March 1, 1925",
+      birthPlace: "Waco, Texas",
+      role: "Technical Sergeant &middot; Radio Operator, 513th Bombardment Squadron",
+      summary: "A Texas-born radio operator and gunner who served with the 513th Bombardment Squadron of the 376th Heavy Bombardment Group &mdash; the &ldquo;Liberandos&rdquo; &mdash; during World War II.",
+      stories: ["august-schild-liberandos"],
+      places: ["waco-texas", "mediterranean-theater", "italy-wwii-theater"],
+      events: ["birth-1925", "wwii-service-513th"],
+      documents: ["obituary-august-schild-jr", "376th-personnel-roster"],
+      military: {
+        branch: "United States Army Air Forces (Army Air Corps era)",
+        rank: "Technical Sergeant",
+        role: "Radio Operator/Gunner",
+        serviceNumber: "18227495",
+        unit: "513th Bombardment Squadron, 376th Heavy Bombardment Group (&ldquo;The Liberandos&rdquo;)"
+      }
     }
   },
 
@@ -59,6 +78,35 @@ window.HistoryData = {
       people: ["theodor-schild"],
       stories: ["early-schilds-fredericksburg"],
       events: ["land-deed-1854"]
+    },
+    "waco-texas": {
+      id: "waco-texas",
+      name: "Waco, Texas",
+      region: "McLennan County, Texas",
+      summary: "The city on the Brazos River in Central Texas where August W. Schild Jr. was born on March 1, 1925.",
+      people: ["august-schild-jr"],
+      stories: ["august-schild-liberandos"],
+      events: ["birth-1925"]
+    },
+    "mediterranean-theater": {
+      id: "mediterranean-theater",
+      name: "Mediterranean Theater",
+      region: "World War II theater of operations",
+      context: "military-operations",
+      summary: "The World War II theater spanning North Africa and Southern Europe where the 376th Heavy Bombardment Group &mdash; August W. Schild Jr.&rsquo;s unit &mdash; was based and flew combat operations. This entry describes the unit&rsquo;s area of operations, not a personal itinerary.",
+      people: ["august-schild-jr"],
+      stories: ["august-schild-liberandos"],
+      events: ["wwii-service-513th"]
+    },
+    "italy-wwii-theater": {
+      id: "italy-wwii-theater",
+      name: "Italy (WWII Operations)",
+      region: "Mediterranean theater",
+      context: "military-operations",
+      summary: "Following the North African campaign, the 376th Heavy Bombardment Group relocated to airfields in Southern Italy, from which it continued long-range missions into occupied Europe.",
+      people: ["august-schild-jr"],
+      stories: ["august-schild-liberandos"],
+      events: ["wwii-service-513th"]
     }
   },
 
@@ -73,6 +121,18 @@ window.HistoryData = {
       places: ["fredericksburg-texas", "grapetown-texas"],
       events: ["land-deed-1854", "census-1860", "postmaster-1868", "postmaster-1869"],
       documents: ["land-deed-1854", "census-1860"]
+    },
+    "august-schild-liberandos": {
+      id: "august-schild-liberandos",
+      title: "From Texas to the Liberandos",
+      subtitle: "August W. Schild Jr. and the Air War Over Europe",
+      dateRange: "1925&ndash;1945",
+      location: "Waco, Texas &amp; the Mediterranean Theater",
+      teaser: "A Texas-born radio operator served with the 376th Heavy Bombardment Group &mdash; the &ldquo;Liberandos&rdquo; &mdash; whose B-24 Liberators flew 451 combat missions from North Africa and Italy into occupied Europe.",
+      people: ["august-schild-jr"],
+      places: ["waco-texas", "mediterranean-theater", "italy-wwii-theater"],
+      events: ["birth-1925", "wwii-service-513th"],
+      documents: ["obituary-august-schild-jr", "376th-personnel-roster"]
     }
   },
 
@@ -122,6 +182,30 @@ window.HistoryData = {
       places: ["fredericksburg-texas"],
       story: "early-schilds-fredericksburg",
       sourceCount: 1
+    },
+    {
+      id: "birth-1925",
+      year: 1925,
+      date: "March 1, 1925",
+      title: "August W. Schild Jr. Born in Waco, Texas",
+      description: "August W. Schild Jr. was born in Waco, Texas, on March 1, 1925.",
+      people: ["august-schild-jr"],
+      places: ["waco-texas"],
+      story: "august-schild-liberandos",
+      document: "obituary-august-schild-jr",
+      sourceCount: 1
+    },
+    {
+      id: "wwii-service-513th",
+      year: null,
+      date: "World War II (exact service dates not yet verified)",
+      title: "Serves with the 513th Bombardment Squadron, 376th Heavy Bombardment Group",
+      description: "August W. Schild Jr. served as a Technical Sergeant and radio operator/gunner with the 513th Bombardment Squadron of the 376th Heavy Bombardment Group &mdash; the &ldquo;Liberandos&rdquo; &mdash; which flew B-24 Liberators from the Mediterranean theater into Europe.",
+      people: ["august-schild-jr"],
+      places: ["mediterranean-theater", "italy-wwii-theater"],
+      story: "august-schild-liberandos",
+      document: "376th-personnel-roster",
+      sourceCount: 2
     }
   ],
 
@@ -146,6 +230,28 @@ window.HistoryData = {
       place: "grapetown-texas",
       hasImage: false,
       transcription: "A land deed dated February 13, 1854, recording Theodor Schild among the early settlers granted land near Grapetown, Gillespie County, Texas.",
+      sourceCount: 1
+    },
+    "obituary-august-schild-jr": {
+      id: "obituary-august-schild-jr",
+      title: "Obituary &mdash; August W. Schild Jr.",
+      type: "Obituary",
+      date: "Family records",
+      people: ["august-schild-jr"],
+      place: "waco-texas",
+      hasImage: false,
+      transcription: "Identifies August W. Schild Jr. as born March 1, 1925, in Waco, Texas, and records his World War II service as a radio operator/gunner.",
+      sourceCount: 1
+    },
+    "376th-personnel-roster": {
+      id: "376th-personnel-roster",
+      title: "376th Heavy Bombardment Group Enlisted Personnel Roster",
+      type: "Military Personnel Roster",
+      date: "World War II",
+      people: ["august-schild-jr"],
+      place: "mediterranean-theater",
+      hasImage: false,
+      transcription: "Lists August W. Schild Jr., service number 18227495, Radio Operator, 513th Bombardment Squadron, 376th Heavy Bombardment Group.",
       sourceCount: 1
     }
   },
@@ -174,6 +280,36 @@ window.HistoryData = {
       title: "Biographical source identifying Lena Schild as August Schild's daughter",
       note: "Cited secondhand in family research notes; original publication still to be identified.",
       status: "probable"
+    },
+    "s-obituary-august-jr": {
+      id: "s-obituary-august-jr",
+      title: "Legacy obituary for August W. Schild Jr.",
+      note: "Family research notes; full publication citation still to be added.",
+      status: "confirmed"
+    },
+    "s-376th-roster": {
+      id: "s-376th-roster",
+      title: "376th Heavy Bombardment Group enlisted personnel roster",
+      note: "Lists August W. Schild Jr. by name and service number; full archival citation still to be added.",
+      status: "confirmed"
+    },
+    "s-376th-veterans": {
+      id: "s-376th-veterans",
+      title: "376th Heavy Bombardment Group / Liberandos veterans association material",
+      note: "Historical unit material identifying the 513th Bombardment Squadron; full citation still to be added.",
+      status: "confirmed"
+    },
+    "s-briscoe-center": {
+      id: "s-briscoe-center",
+      title: "University of Texas Briscoe Center for American History &mdash; 376th Heavy Bombardment Group archive",
+      note: "Institutional archive holding unit-level photographs, correspondence, and records; not yet searched for material specific to August W. Schild Jr.",
+      status: "probable"
+    },
+    "s-tarot-finding-aid": {
+      id: "s-tarot-finding-aid",
+      title: "Texas Archival Resources Online &mdash; finding aid, 376th Heavy Bombardment Group collection",
+      note: "Institutional finding aid describing the Briscoe Center collection&rsquo;s scope; not yet cross-referenced for August-specific material.",
+      status: "probable"
     }
   },
 
@@ -181,7 +317,11 @@ window.HistoryData = {
     "land-deed-1854": ["s-land-deed-1854"],
     "census-1860": ["s-census-1860"],
     "postmaster-1868": ["s-postmaster"],
-    "postmaster-1869": ["s-postmaster", "s-lena"]
+    "postmaster-1869": ["s-postmaster", "s-lena"],
+    "birth-1925": ["s-obituary-august-jr"],
+    "wwii-service-513th": ["s-376th-roster", "s-376th-veterans"],
+    "obituary-august-schild-jr": ["s-obituary-august-jr"],
+    "376th-personnel-roster": ["s-376th-roster", "s-briscoe-center", "s-tarot-finding-aid"]
   },
 
   mysteries: [
@@ -192,6 +332,14 @@ window.HistoryData = {
       evidence: "They appear beside one another in the 1860 census, were close in age, and were both born in Saxony.",
       unknown: "Their exact relationship &mdash; brothers, cousins, unrelated neighbors sharing a surname &mdash; has not yet been proven.",
       people: ["august-schild", "theodor-schild"]
+    },
+    {
+      id: "august-jr-missions",
+      question: "Which missions did August actually fly?",
+      status: "researching",
+      evidence: "August W. Schild Jr.&rsquo;s service with the 513th Bombardment Squadron and 376th Heavy Bombardment Group (the &ldquo;Liberandos&rdquo;) is documented in the group&rsquo;s enlisted personnel roster and his obituary.",
+      unknown: "His individual crew assignment, aircraft, and personal mission list have not yet been identified. The 376th flew 451 combat missions during the war &mdash; which of these, if any, involved August personally is not yet known.",
+      people: ["august-schild-jr"]
     }
   ]
 };
